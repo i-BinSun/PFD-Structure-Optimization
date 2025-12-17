@@ -1,0 +1,18 @@
+{
+  "ingredient_name": "A0_MSM_AGG",
+  "version": 1,
+  "package_format": [
+    {
+      "sub_tag": "clr_dbug",
+      "mandatory_files": {
+        "plaintext_binary": ".*patchlet\\.bin"
+      }
+    },
+    {
+      "sub_tag": "enc_dbug",
+      "mandatory_files": {
+        "encrypted_binary": ".*patchlet_Encrypted\\.bin"
+      }
+    }
+  ]
+}

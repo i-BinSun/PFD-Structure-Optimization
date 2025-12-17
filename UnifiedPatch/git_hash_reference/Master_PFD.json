@@ -1,0 +1,404 @@
+{
+  "ingredient_list": [
+    {
+      "ingredient_name": "A0_COM_main_iCode",
+      "file_path": "A0_COM_main_iCode.json",
+      "commit_hash": "45047fd"
+    },
+    {
+      "ingredient_name": "A0_MSM_AGG",
+      "file_path": "A0_MSM_AGG.json",
+      "commit_hash": "fac3df3"
+    },
+    {
+      "ingredient_name": "A0_S3M",
+      "file_path": "A0_S3M.json",
+      "commit_hash": "d06c54d"
+    },
+    {
+      "ingredient_name": "A0_S3M_IMH1",
+      "file_path": "A0_S3M_IMH1.json",
+      "commit_hash": "61d3ad5"
+    },
+    {
+      "ingredient_name": "A0_S3M_IMH2",
+      "file_path": "A0_S3M_IMH2.json",
+      "commit_hash": "9604ca8"
+    },
+    {
+      "ingredient_name": "B0_S3M_IMH2",
+      "file_path": "B0_S3M_IMH2.json",
+      "commit_hash": "aad877f"
+    },
+    {
+      "ingredient_name": "A0_ESE",
+      "file_path": "A0_ESE.json",
+      "commit_hash": "ed4f383"
+    },
+    {
+      "ingredient_name": "A0_ESE_RBP",
+      "file_path": "A0_ESE_RBP.json",
+      "commit_hash": "2aea919"
+    },
+    {
+      "ingredient_name": "A0_UV1_main_Mcheck",
+      "file_path": "A0_UV1_main_Mcheck.json",
+      "commit_hash": "10db79e"
+    },
+    {
+      "ingredient_name": "A0_UV1_main_OOBMSM",
+      "file_path": "A0_UV1_main_OOBMSM.json",
+      "commit_hash": "c3612f4"
+    },
+    {
+      "ingredient_name": "A0_UV1_main_pCode_CBB",
+      "file_path": "A0_UV1_main_pCode_CBB.json",
+      "commit_hash": "5264a64"
+    },
+    {
+      "ingredient_name": "A0_UV1_main_PrimeCode_IMH",
+      "file_path": "A0_UV1_main_PrimeCode_IMH.json",
+      "commit_hash": "38a4b37"
+    },
+    {
+      "ingredient_name": "A0_UV1_main_S3M",
+      "file_path": "A0_UV1_main_S3M.json",
+      "commit_hash": "2faabb6"
+    },
+    {
+      "ingredient_name": "A0_UV1_main_ESE",
+      "file_path": "A0_UV1_main_ESE.json",
+      "commit_hash": "9501dd2"
+    },
+    {
+      "ingredient_name": "A0_UV1_main_Acode",
+      "file_path": "A0_UV1_main_Acode.json",
+      "commit_hash": "b5a03cd"
+    },
+    {
+      "ingredient_name": "A0_UV2_main_Mcheck",
+      "file_path": "A0_UV2_main_Mcheck.json",
+      "commit_hash": "1c8bda1"
+    },
+    {
+      "ingredient_name": "A0_UV2_main_OOBMSM",
+      "file_path": "A0_UV2_main_OOBMSM.json",
+      "commit_hash": "65c23d0"
+    },
+    {
+      "ingredient_name": "A0_UV2_main_pCode_CBB",
+      "file_path": "A0_UV2_main_pCode_CBB.json",
+      "commit_hash": "5c720f9"
+    },
+    {
+      "ingredient_name": "A0_UV2_main_PrimeCode_IMH",
+      "file_path": "A0_UV2_main_PrimeCode_IMH.json",
+      "commit_hash": "5c05d2c"
+    },
+    {
+      "ingredient_name": "A0_UV2_main_S3M",
+      "file_path": "A0_UV2_main_S3M.json",
+      "commit_hash": "41dbb60"
+    },
+    {
+      "ingredient_name": "A0_UV2_main_ESE",
+      "file_path": "A0_UV2_main_ESE.json",
+      "commit_hash": "1bf4215"
+    },
+    {
+      "ingredient_name": "A0_UV2_main_Acode",
+      "file_path": "A0_UV2_main_Acode.json",
+      "commit_hash": "9f268d0"
+    },
+    {
+      "ingredient_name": "A0_UV3_main_CoreFW",
+      "file_path": "A0_UV3_main_CoreFW.json",
+      "commit_hash": "c8c87a9"
+    },
+    {
+      "ingredient_name": "A0_UV3_main_Mcheck",
+      "file_path": "A0_UV3_main_Mcheck.json",
+      "commit_hash": "fb1b667"
+    },
+    {
+      "ingredient_name": "A0_UV3_main_OOBMSM",
+      "file_path": "A0_UV3_main_OOBMSM.json",
+      "commit_hash": "342e2d2"
+    },
+    {
+      "ingredient_name": "A0_UV3_main_pCode_CBB",
+      "file_path": "A0_UV3_main_pCode_CBB.json",
+      "commit_hash": "0b61900"
+    },
+    {
+      "ingredient_name": "A0_UV3_main_PrimeCode_IMH",
+      "file_path": "A0_UV3_main_PrimeCode_IMH.json",
+      "commit_hash": "8991a0f"
+    },
+    {
+      "ingredient_name": "A0_UV3_main_S3M",
+      "file_path": "A0_UV3_main_S3M.json",
+      "commit_hash": "0a7c905"
+    },
+    {
+      "ingredient_name": "A0_UV3_main_ESE",
+      "file_path": "A0_UV3_main_ESE.json",
+      "commit_hash": "74deb23"
+    },
+    {
+      "ingredient_name": "A0_UV3_main_Acode",
+      "file_path": "A0_UV3_main_Acode.json",
+      "commit_hash": "042b5b3"
+    },
+    {
+      "ingredient_name": "A0_UV4_main_CoreFW",
+      "file_path": "A0_UV4_main_CoreFW.json",
+      "commit_hash": "90d1500"
+    },
+    {
+      "ingredient_name": "A0_UV4_main_Mcheck",
+      "file_path": "A0_UV4_main_Mcheck.json",
+      "commit_hash": "72906eb"
+    },
+    {
+      "ingredient_name": "A0_UV4_main_OOBMSM",
+      "file_path": "A0_UV4_main_OOBMSM.json",
+      "commit_hash": "8319e18"
+    },
+    {
+      "ingredient_name": "A0_UV4_main_pCode_CBB",
+      "file_path": "A0_UV4_main_pCode_CBB.json",
+      "commit_hash": "f067916"
+    },
+    {
+      "ingredient_name": "A0_UV4_main_PrimeCode_IMH",
+      "file_path": "A0_UV4_main_PrimeCode_IMH.json",
+      "commit_hash": "d09aba0"
+    },
+    {
+      "ingredient_name": "A0_UV4_main_S3M",
+      "file_path": "A0_UV4_main_S3M.json",
+      "commit_hash": "4338417"
+    },
+    {
+      "ingredient_name": "A0_UV4_main_ESE",
+      "file_path": "A0_UV4_main_ESE.json",
+      "commit_hash": "19bcd39"
+    },
+    {
+      "ingredient_name": "A0_UV4_main_Acode",
+      "file_path": "A0_UV4_main_Acode.json",
+      "commit_hash": "7a9c140"
+    },
+    {
+      "ingredient_name": "A0_1p0_main_CoreFW",
+      "file_path": "A0_1p0_main_CoreFW.json",
+      "commit_hash": "be28133"
+    },
+    {
+      "ingredient_name": "A0_1p0_main_Mcheck",
+      "file_path": "A0_1p0_main_Mcheck.json",
+      "commit_hash": "9b70f2f"
+    },
+    {
+      "ingredient_name": "A0_1p0_main_OOBMSM",
+      "file_path": "A0_1p0_main_OOBMSM.json",
+      "commit_hash": "8fedd78"
+    },
+    {
+      "ingredient_name": "A0_1p0_main_pCode_CBB",
+      "file_path": "A0_1p0_main_pCode_CBB.json",
+      "commit_hash": "4bd2b24"
+    },
+    {
+      "ingredient_name": "A0_1p0_main_PrimeCode_IMH",
+      "file_path": "A0_1p0_main_PrimeCode_IMH.json",
+      "commit_hash": "a5a2914"
+    },
+    {
+      "ingredient_name": "A0_1p0_main_Acode",
+      "file_path": "A0_1p0_main_Acode.json",
+      "commit_hash": "963a277"
+    },
+    {
+      "ingredient_name": "A0_main_uCode",
+      "file_path": "A0_main_uCode.json",
+      "commit_hash": "4e878a9"
+    },
+    {
+      "ingredient_name": "A0_main_Mcheck",
+      "file_path": "A0_main_Mcheck.json",
+      "commit_hash": "28b6056"
+    },
+    {
+      "ingredient_name": "A0_main_XuCode",
+      "file_path": "A0_main_XuCode.json",
+      "commit_hash": "bd474a7"
+    },
+    {
+      "ingredient_name": "A0_main_Tcode",
+      "file_path": "A0_main_Tcode.json",
+      "commit_hash": "35fb9d5"
+    },
+    {
+      "ingredient_name": "A0_main_Acode",
+      "file_path": "A0_main_Acode.json",
+      "commit_hash": "9c40028"
+    },
+    {
+      "ingredient_name": "A0_main_CoreFW",
+      "file_path": "A0_main_CoreFW.json",
+      "commit_hash": "410235a"
+    },
+    {
+      "ingredient_name": "A0_main_OOBMSM",
+      "file_path": "A0_main_OOBMSM.json",
+      "commit_hash": "c6f9f44"
+    },
+    {
+      "ingredient_name": "A0_main_OOBMSM_IMH1",
+      "file_path": "A0_main_OOBMSM_IMH1.json",
+      "commit_hash": "87eb9eb"
+    },
+    {
+      "ingredient_name": "B0_main_OOBMSM_IMH1",
+      "file_path": "B0_main_OOBMSM_IMH1.json",
+      "commit_hash": "4e45b73"
+    },
+    {
+      "ingredient_name": "A0_main_pCode_CBB",
+      "file_path": "A0_main_pCode_CBB.json",
+      "commit_hash": "6082806"
+    },
+    {
+      "ingredient_name": "A0_main_PrimeCode_IMH",
+      "file_path": "A0_main_PrimeCode_IMH.json",
+      "commit_hash": "c9a6cec"
+    },
+    {
+      "ingredient_name": "A0_main_PrimeCode_IMH1",
+      "file_path": "A0_main_PrimeCode_IMH1.json",
+      "commit_hash": "615866b"
+    },
+    {
+      "ingredient_name": "B0_main_PrimeCode_IMH1",
+      "file_path": "B0_main_PrimeCode_IMH1.json",
+      "commit_hash": "2b9652f"
+    },
+    {
+      "ingredient_name": "A0_PO_uCode",
+      "file_path": "A0_PO_uCode.json",
+      "commit_hash": "ae52bae"
+    },
+    {
+      "ingredient_name": "A0_PO_Mcheck",
+      "file_path": "A0_PO_Mcheck.json",
+      "commit_hash": "50fe576"
+    },
+    {
+      "ingredient_name": "A0_PO_XuCode",
+      "file_path": "A0_PO_XuCode.json",
+      "commit_hash": "53cc5c8"
+    },
+    {
+      "ingredient_name": "A0_PO_Tcode",
+      "file_path": "A0_PO_Tcode.json",
+      "commit_hash": "9d0e9d5"
+    },
+    {
+      "ingredient_name": "A0_PO_ESE",
+      "file_path": "A0_PO_ESE.json",
+      "commit_hash": "0f7a6e0"
+    },
+    {
+      "ingredient_name": "A0_ESE_CBB",
+      "file_path": "A0_ESE_CBB.json",
+      "commit_hash": "f4c567b"
+    },
+    {
+      "ingredient_name": "B0_ESE_CBB",
+      "file_path": "B0_ESE_CBB.json",
+      "commit_hash": "7f72079"
+    },
+    {
+      "ingredient_name": "A0_PO_Acode",
+      "file_path": "A0_PO_Acode.json",
+      "commit_hash": "8eb344e"
+    },
+    {
+      "ingredient_name": "A0_PO_CoreFW",
+      "file_path": "A0_PO_CoreFW.json",
+      "commit_hash": "6a11869"
+    },
+    {
+      "ingredient_name": "A0_PO_OOBMSM",
+      "file_path": "A0_PO_OOBMSM.json",
+      "commit_hash": "124b37e"
+    },
+    {
+      "ingredient_name": "A0_PO_OOBMSM_IMH1",
+      "file_path": "A0_PO_OOBMSM_IMH1.json",
+      "commit_hash": "767c42a"
+    },
+    {
+      "ingredient_name": "A0_PO_pCode_CBB",
+      "file_path": "A0_PO_pCode_CBB.json",
+      "commit_hash": "9675cd8"
+    },
+    {
+      "ingredient_name": "A0_PO_PrimeCode_IMH",
+      "file_path": "A0_PO_PrimeCode_IMH.json",
+      "commit_hash": "8baf1f2"
+    },
+    {
+      "ingredient_name": "A0_PO_PrimeCode_IMH1",
+      "file_path": "A0_PO_PrimeCode_IMH1.json",
+      "commit_hash": "6daf81d"
+    },
+    {
+      "ingredient_name": "A0_PO_S3M_IMH1",
+      "file_path": "A0_PO_S3M_IMH1.json",
+      "commit_hash": "e83fea7"
+    },
+    {
+      "ingredient_name": "A0_0p8_main_OOBMSM_IMH2",
+      "file_path": "A0_0p8_main_OOBMSM_IMH2.json",
+      "commit_hash": "7ceb68c"
+    },
+    {
+      "ingredient_name": "A0_0p5_main_OOBMSM_IMH2",
+      "file_path": "A0_0p5_main_OOBMSM_IMH2.json",
+      "commit_hash": "5304f75"
+    },
+    {
+      "ingredient_name": "A0_0p5_experimental_OOBMSM_IMH2",
+      "file_path": "A0_0p5_experimental_OOBMSM_IMH2.json",
+      "commit_hash": "a69bd54"
+    },
+    {
+      "ingredient_name": "A0_0p5_main_PrimeCode_IMH2",
+      "file_path": "A0_0p5_main_PrimeCode_IMH2.json",
+      "commit_hash": "84819a7"
+    },
+    {
+      "ingredient_name": "B0_main_PrimeCode_IMH2",
+      "file_path": "B0_main_PrimeCode_IMH2.json",
+      "commit_hash": "3a037ca"
+    },
+    {
+      "ingredient_name": "B0_main_CoreFW",
+      "file_path": "B0_main_CoreFW.json",
+      "commit_hash": "ef0d0e8"
+    },
+    {
+      "ingredient_name": "B0_main_pCode_CBB",
+      "file_path": "B0_main_pCode_CBB.json",
+      "commit_hash": "7ac0902"
+    },
+    {
+      "ingredient_name": "B0_main_OOBMSM_IMH2",
+      "file_path": "B0_main_OOBMSM_IMH2.json",
+      "commit_hash": "2fe35c9"
+    }
+  ]
+}

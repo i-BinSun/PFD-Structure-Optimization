@@ -1,0 +1,55 @@
+{
+  "ingredient_name": "A0_PO_ESE",
+  "package_format": [
+    {
+      "sub_tag": "clr_tprod",
+      "mandatory_files": {
+        "unenc_binary": ".*Intel_Internal/.*/Silicon/no_enc/\\wSE_CBB_DMR_A0_\\d{4}\\.\\d\\.\\d\\.\\d{4}_Release_PreProd_PV0\\.bin"
+      }
+    },
+    {
+      "sub_tag": "emu_tprod",
+      "mandatory_files": {
+        "emulation_binary": ".*Intel_Internal/.*/Emulation/MCP/\\wSE_CBB_DMR_A0_\\d{4}\\.\\d\\.\\d\\.\\d{4}_Release_PreProd_PV0\\.bin"
+      }
+    },
+    {
+      "sub_tag": "silicon_tprod",
+      "mandatory_files": {
+        "static_binary": ".*Intel_Internal/.*/Silicon/static_enc/\\wSE_CBB_DMR_A0_\\d{4}\\.\\d\\.\\d\\.\\d{4}_Release_PreProd_PV0\\.bin"
+      }
+    },
+    {
+      "sub_tag": "tenc_tprod",
+      "mandatory_files": {
+        "simics_binary": ".*Simics/A0/\\wSE_CBB_DMR_A0_\\d{4}\\.\\d\\.\\d\\.\\d{4}_Release_PreProd_PV0\\.bin"
+      }
+    },
+    {
+      "sub_tag": "enc_dbug",
+      "mandatory_files": {
+        "silicon_binary": ".*Silicon/A0/\\wSE_CBB_DMR_A0_\\d{4}\\.\\d\\.\\d\\.\\d{4}_Release_PreProd_PV0\\.bin"
+      }
+    },
+    {
+      "sub_tag": "enc_tprod",
+      "mandatory_files": {
+        "silicon_binary": ".*Silicon/A0/\\wSE_CBB_DMR_A0_\\d{4}\\.\\d\\.\\d\\.\\d{4}_Release_PreProd_PV0\\.bin"
+      }
+    },
+    {
+      "sub_tag": "enc_sed",
+      "mandatory_files": {},
+      "optional_files": {
+        "silicon_binary": ".*Silicon/Production/A0/\\wSE_CBB_DMR_A0_\\d{4}\\.\\d\\.\\d\\.\\d{4}_Release_Prod_PV0\\.bin"
+      }
+    },
+    {
+      "sub_tag": "enc_prod",
+      "mandatory_files": {},
+      "optional_files": {
+        "silicon_binary": ".*Silicon/Production/A0/\\wSE_CBB_DMR_A0_\\d{4}\\.\\d\\.\\d\\.\\d{4}_Release_Prod_PV1\\.bin"
+      }
+    }
+  ]
+}

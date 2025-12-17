@@ -1,0 +1,12 @@
+{
+  "ingredient_name": "A0_1p0_main_Acode",
+  "version": 1,
+  "package_format": [
+    {
+      "sub_tag": "",
+      "mandatory_files": {
+        "patchlet": ".*acode_\\S+.patchlet"
+      }
+    }
+  ]
+}

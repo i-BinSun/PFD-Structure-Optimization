@@ -1,0 +1,13 @@
+{
+    "ingredient_name": "SeamLoader",
+    "package_format": [
+        {
+            "sub_tag": "",
+            "mandatory_files": [
+                {
+                    "so_file": ".*?.bin"
+                }
+            ]
+        }
+    ]
+}

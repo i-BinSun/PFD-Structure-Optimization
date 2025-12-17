@@ -1,0 +1,50 @@
+{
+  "ingredient_name": "A0_1p0_main_pCode_CBB",
+  "version": 6,
+  "package_format": [
+    {
+      "sub_tag": "clr_tprod",
+      "mandatory_files": {
+        "plaintext_binary": ".*/system/image/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_\\w+?_PreProd_PV0_Unencrypted\\.bin"
+      }
+    },
+    {
+      "sub_tag": "clr_dbug",
+      "mandatory_files": {
+        "encrypted_binary": ".*/system/image/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_\\w+?_Debug_PV0_Unencrypted\\.bin"
+      }
+    },
+    {
+      "sub_tag": "tenc_tprod",
+      "mandatory_files": {
+        "encrypted_binary": ".*/system/image/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_\\w+?_PreProd_PV0_.*_simics\\.bin"
+      }
+    },
+    {
+      "sub_tag": "emu_tprod",
+      "mandatory_files": {
+        "encrypted_binary": ".*/system/image/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_\\w+?_PreProd_PV0_.*_fpga\\.bin"
+      }
+    },
+    {
+      "sub_tag": "enc_dbug",
+      "mandatory_files": {
+        "encrypted_binary": ".*/system/image/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_\\w+?_Debug_PV0_PerDie\\.bin"
+      }
+    },
+    {
+      "sub_tag": "enc_sed",
+      "mandatory_files": {},
+      "optional_files": {
+        "encrypted_binary": ".*/system/image/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_\\w+?_Prod_PV0_PerDie\\.bin"
+      }
+    },
+    {
+      "sub_tag": "enc_prod",
+      "mandatory_files": {},
+      "optional_files": {
+        "encrypted_binary": ".*/system/image/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_\\w+?_Prod_PV1_PerDie\\.bin"
+      }
+    }
+  ]
+}

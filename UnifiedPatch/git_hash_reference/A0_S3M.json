@@ -1,0 +1,17 @@
+{
+  "ingredient_name": "A0_S3M",
+  "package_format": [
+    {
+      "sub_tag": "clr_unsn",
+      "mandatory_files": {
+        "plaintext_binary": ".*s3m_\\w\\.\\w\\.\\w\\.\\w{4}_clr_unsn.bin"
+      }
+    },
+    {
+      "sub_tag": "tenc_tprod",
+      "mandatory_files": {
+        "encrypted_binary": ".*s3m_\\w\\.\\w\\.\\w\\.\\w{4}_tenc_tprod.bin"
+      }
+    }
+  ]
+}

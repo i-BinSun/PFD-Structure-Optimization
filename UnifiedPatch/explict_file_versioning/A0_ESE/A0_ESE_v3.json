@@ -1,0 +1,24 @@
+{
+  "ingredient_name": "A0_ESE",
+  "version": 3,
+  "package_format": [
+    {
+      "sub_tag": "tenc_tprod",
+      "mandatory_files": {
+        "simics_binary": ".*Simics/A0/\\wSE_CBB_DMR_A0_\\d\\d\\d\\d\\.\\d\\.\\d\\.\\d\\d\\d\\d_Release_PreProd_PV0\\.bin"
+      }
+    },
+    {
+      "sub_tag": "emu_tprod",
+      "mandatory_files": {
+        "emulation_binary": ".*Intel_Internal/.*/Emulation/MCP/\\wSE_CBB_DMR_A0_\\d\\d\\d\\d\\.\\d\\.\\d\\.\\d\\d\\d\\d_Release_PreProd_PV0\\.bin"
+      }
+    },
+    {
+      "sub_tag": "enc_dbug",
+      "mandatory_files": {
+        "silicon_binary": ".*Silicon/A0/\\wSE_CBB_DMR_A0_\\d\\d\\d\\d\\.\\d\\.\\d\\.\\d\\d\\d\\d_Release_PreProd_PV0\\.bin"
+      }
+    }
+  ]
+}

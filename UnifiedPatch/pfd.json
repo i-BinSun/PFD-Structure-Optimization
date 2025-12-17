@@ -1,0 +1,4682 @@
+{
+  "ingredient_list": [
+    {
+      "ingredient_name": "A0_COM_main_iCode",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "plaintext_binary": ".*icode_\\w{8}_clr_unsn\\.bin"
+              }
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "plaintext_binary": ".*icode_\\w{8}_clr_unsn\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_unsn",
+              "mandatory_files": {
+                "encrypted_binary": ".*icode_\\w{8}_tenc_unsn\\.bin"
+              }
+            }
+          ]
+        },
+        {
+          "version": 3,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "plaintext_binary": ".*icode_\\w{8}_clr_unsn\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_unsn",
+              "mandatory_files": {
+                "encrypted_binary": ".*icode_\\w{8}_tenc_unsn\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "encrypted_binary": ".*icode_\\w{8}_enc_dbug\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_unsn",
+              "mandatory_files": {
+                "encrypted_binary": ".*icode_\\w{8}_enc_unsn\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_sed",
+              "mandatory_files": {
+                "encrypted_binary": ".*icode_\\w{8}_enc_sed\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_prod",
+              "mandatory_files": {},
+              "optional_files": {
+                "encrypted_binary": ".*icode_\\w{8}_enc_prod\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_MSM_AGG",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_dbug",
+              "mandatory_files": {
+                "plaintext_binary": ".*patchlet\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "encrypted_binary": ".*patchlet_Encrypted\\.bin"
+              }
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_dbug",
+              "mandatory_files": {
+                "plaintext_binary": ".*DMR_AGG_A0_patchlet_clr_dbug\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_S3M",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_dbug",
+              "mandatory_files": {
+                "plaintext_binary": ".*s3m_release_\\w\\.\\w\\.\\w\\.\\w{4}_clear.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "encrypted_binary": ".*s3m_release_\\w\\.\\w\\.\\w\\.\\w{4}.bin"
+              }
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "plaintext_binary": ".*s3m_\\w\\.\\w\\.\\w\\.\\w{4}_clr_unsn.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_tprod",
+              "mandatory_files": {
+                "encrypted_binary": ".*s3m_\\w\\.\\w\\.\\w\\.\\w{4}_tenc_tprod.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_S3M_IMH1",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "plaintext_binary": ".*s3m_imh1_\\w\\.\\w\\.\\w\\.\\w{4}_clr_unsn.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_tprod",
+              "mandatory_files": {
+                "encrypted_binary": ".*s3m_imh1_\\w\\.\\w\\.\\w\\.\\w{4}_tenc_tprod.bin"
+              }
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "plaintext_binary": ".*s3m_imh1_\\w\\.\\w\\.\\w\\.\\w{4}_clr_unsn.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_tprod",
+              "mandatory_files": {
+                "encrypted_binary": ".*s3m_imh1_\\w\\.\\w\\.\\w\\.\\w{4}_tenc_tprod.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_unsn",
+              "mandatory_files": {
+                "encrypted_binary": ".*s3m_imh1_\\w\\.\\w\\.\\w\\.\\w{4}_enc_unsn.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "encrypted_binary": ".*s3m_imh1_\\w\\.\\w\\.\\w\\.\\w{4}_enc_dbug.bin"
+              }
+            }
+          ]
+        },
+        {
+          "version": 3,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "plaintext_binary": ".*s3m_imh1_\\w\\.\\w\\.\\w\\.\\w{4}_clr_unsn.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_tprod",
+              "mandatory_files": {
+                "encrypted_binary": ".*s3m_imh1_\\w\\.\\w\\.\\w\\.\\w{4}_tenc_tprod.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_unsn",
+              "mandatory_files": {
+                "encrypted_binary": ".*s3m_imh1_\\w\\.\\w\\.\\w\\.\\w{4}_enc_unsn.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "encrypted_binary": ".*s3m_imh1_\\w\\.\\w\\.\\w\\.\\w{4}_enc_dbug.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_sed",
+              "mandatory_files": {},
+              "optional_files": {
+                "encrypted_binary": ".*s3m_imh1_\\w\\.\\w\\.\\w\\.\\w{4}_enc_sed.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_prod",
+              "mandatory_files": {},
+              "optional_files": {
+                "encrypted_binary": ".*s3m_imh1_\\w\\.\\w\\.\\w\\.\\w{4}_enc_prod.bin"
+              }
+            }
+          ]
+        },
+        {
+          "version": 4,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "plaintext_binary": ".*s3m_imh1_\\w\\.\\w\\.\\w\\.\\w{4}_clr_unsn.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_tprod",
+              "mandatory_files": {
+                "encrypted_binary": ".*s3m_imh1_\\w\\.\\w\\.\\w\\.\\w{4}_tenc_tprod.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_unsn",
+              "mandatory_files": {
+                "encrypted_binary": ".*s3m_imh1_\\w\\.\\w\\.\\w\\.\\w{4}_enc_unsn.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {},
+              "optional_files": {
+                "encrypted_binary": ".*s3m_imh1_\\w\\.\\w\\.\\w\\.\\w{4}_enc_dbug.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_sed",
+              "mandatory_files": {},
+              "optional_files": {
+                "encrypted_binary": ".*s3m_imh1_\\w\\.\\w\\.\\w\\.\\w{4}_enc_sed.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_prod",
+              "mandatory_files": {},
+              "optional_files": {
+                "encrypted_binary": ".*s3m_imh1_\\w\\.\\w\\.\\w\\.\\w{4}_enc_prod.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_S3M_IMH2",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "plaintext_binary": ".*s3m_imh2_\\w\\.\\w\\.\\w\\.\\w{4}_clr_unsn.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_tprod",
+              "mandatory_files": {
+                "encrypted_binary": ".*s3m_imh2_\\w\\.\\w\\.\\w\\.\\w{4}_tenc_tprod.bin"
+              }
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "plaintext_binary": ".*s3m_imh2_\\w\\.\\w\\.\\w\\.\\w{4}_clr_unsn.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_tprod",
+              "mandatory_files": {
+                "encrypted_binary": ".*s3m_imh2_\\w\\.\\w\\.\\w\\.\\w{4}_tenc_tprod.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_unsn",
+              "mandatory_files": {
+                "encrypted_binary": ".*s3m_imh2_\\w\\.\\w\\.\\w\\.\\w{4}_enc_unsn.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "B0_S3M_IMH2",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "plaintext_binary": ".*s3m_imh2_\\w\\.\\w\\.\\w\\.\\w{4}_clr_unsn.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_tprod",
+              "mandatory_files": {
+                "encrypted_binary": ".*s3m_imh2_\\w\\.\\w\\.\\w\\.\\w{4}_tenc_tprod.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_unsn",
+              "mandatory_files": {
+                "encrypted_binary": ".*s3m_imh2_\\w\\.\\w\\.\\w\\.\\w{4}_enc_unsn.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },    
+    {
+      "ingredient_name": "A0_ESE",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_dbug",
+              "mandatory_files": {
+                "simics_plaintext_binary": ".*Simics/A0/\\wSE_CBB_DMR_A0_\\d\\d\\d\\d\\.\\d\\.\\d\\.\\d\\d\\d\\d_Release_PreProd_PV0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "simics_encrypted_binary": ".*Simics/A0/\\wSE_CBB_DMR_A0_\\d\\d\\d\\d\\.\\d\\.\\d\\.\\d\\d\\d\\d_Release_PreProd_PV0_enc\\.bin"
+              }
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "",
+              "mandatory_files": {
+                "simics_binary": ".*Simics/A0/\\wSE_CBB_DMR_A0_\\d\\d\\d\\d\\.\\d\\.\\d\\.\\d\\d\\d\\d_Release_PreProd_PV0\\.bin"
+              }
+            }
+          ]
+        },
+        {
+          "version": 3,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "tenc_tprod",
+              "mandatory_files": {
+                "simics_binary": ".*Simics/A0/\\wSE_CBB_DMR_A0_\\d\\d\\d\\d\\.\\d\\.\\d\\.\\d\\d\\d\\d_Release_PreProd_PV0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "emu_tprod",
+              "mandatory_files": {
+                "emulation_binary": ".*Intel_Internal/.*/Emulation/MCP/\\wSE_CBB_DMR_A0_\\d\\d\\d\\d\\.\\d\\.\\d\\.\\d\\d\\d\\d_Release_PreProd_PV0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "silicon_binary": ".*Silicon/A0/\\wSE_CBB_DMR_A0_\\d\\d\\d\\d\\.\\d\\.\\d\\.\\d\\d\\d\\d_Release_PreProd_PV0\\.bin"
+              }
+            }
+          ]
+        },
+        {
+          "version": 4,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "tenc_tprod",
+              "mandatory_files": {
+                "simics_binary": ".*Simics/A0/\\wSE_CBB_DMR_A0_\\d{4}\\.\\d\\.\\d\\.\\d{4}_Release_PreProd_PV0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "emu_tprod",
+              "mandatory_files": {
+                "emulation_binary": ".*Intel_Internal/.*/Emulation/MCP/\\wSE_CBB_DMR_A0_\\d{4}\\.\\d\\.\\d\\.\\d{4}_Release_PreProd_PV0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "silicon_binary": ".*Silicon/A0/\\wSE_CBB_DMR_A0_\\d{4}\\.\\d\\.\\d\\.\\d{4}_Release_PreProd_PV0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_sed",
+              "mandatory_files": {},
+              "optional_files": {
+                "silicon_binary": ".*Silicon/Production/A0/\\wSE_CBB_DMR_A0_\\d{4}\\.\\d\\.\\d\\.\\d{4}_Release_Prod_PV0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_prod",
+              "mandatory_files": {},
+              "optional_files": {
+                "silicon_binary": ".*Silicon/Production/A0/\\wSE_CBB_DMR_A0_\\d{4}\\.\\d\\.\\d\\.\\d{4}_Release_Prod_PV1\\.bin"
+              }
+            }
+          ]
+        },
+        {
+          "version": 5,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_tprod",
+              "mandatory_files": {
+                "unenc_binary": ".*Intel_Internal/.*/Silicon/no_enc/\\wSE_CBB_DMR_A0_\\d{4}\\.\\d\\.\\d\\.\\d{4}_Release_PreProd_PV0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "emu_tprod",
+              "mandatory_files": {
+                "emulation_binary": ".*Intel_Internal/.*/Emulation/MCP/\\wSE_CBB_DMR_A0_\\d{4}\\.\\d\\.\\d\\.\\d{4}_Release_PreProd_PV0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "silicon_tprod",
+              "mandatory_files": {
+                "static_binary": ".*Intel_Internal/.*/Silicon/static_enc/\\wSE_CBB_DMR_A0_\\d{4}\\.\\d\\.\\d\\.\\d{4}_Release_PreProd_PV0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_tprod",
+              "mandatory_files": {
+                "simics_binary": ".*Simics/A0/\\wSE_CBB_DMR_A0_\\d{4}\\.\\d\\.\\d\\.\\d{4}_Release_PreProd_PV0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "silicon_binary": ".*Silicon/A0/\\wSE_CBB_DMR_A0_\\d{4}\\.\\d\\.\\d\\.\\d{4}_Release_PreProd_PV0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_sed",
+              "mandatory_files": {},
+              "optional_files": {
+                "silicon_binary": ".*Silicon/Production/A0/\\wSE_CBB_DMR_A0_\\d{4}\\.\\d\\.\\d\\.\\d{4}_Release_Prod_PV0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_prod",
+              "mandatory_files": {},
+              "optional_files": {
+                "silicon_binary": ".*Silicon/Production/A0/\\wSE_CBB_DMR_A0_\\d{4}\\.\\d\\.\\d\\.\\d{4}_Release_Prod_PV1\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_ESE_RBP",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "plaintext-binary": ".*\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_UV1_main_Mcheck",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "",
+              "mandatory_files": {
+                "mcheck_inc": ".*.inc"
+              }
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "",
+              "mandatory_files": {
+                "mcheck_binary": ".*mcheck_section\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_UV1_main_OOBMSM",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "plaintext_binary": ".*patchlet\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_unsn",
+              "mandatory_files": {
+                "encrypted_binary": ".*patchlet_Encrypted\\.bin"
+              }
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_dbug",
+              "mandatory_files": {
+                "plaintext_binary": ".*DMR_IMH_A0_patchlet_clr_dbug\\.bin"
+              }
+            }
+          ]
+        },
+        {
+          "version": 3,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_dbug",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_A0_patchlet_clr_dbug\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_A0_patchlet_clr_dbug\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_UV1_main_pCode_CBB",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_dbug",
+              "mandatory_files": {
+                "plaintext_binary": ".*signed_pcode\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "encrypted_binary": ".*signed_encrypted_pcode\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_UV1_main_PrimeCode_IMH",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "plaintext_binary": ".*bin/pcode-io_clr_unsn\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_unsn",
+              "mandatory_files": {
+                "encrypted_binary": ".*bin/pcode-io_tenc_unsn\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_UV1_main_S3M",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_dbug",
+              "mandatory_files": {
+                "plaintext_binary": ".*s3m_release_\\w\\.\\w\\.\\w\\.\\w{4}_clear.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "encrypted_binary": ".*s3m_release_\\w\\.\\w\\.\\w\\.\\w{4}.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_UV1_main_ESE",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_dbug",
+              "mandatory_files": {
+                "simics_plaintext_binary": ".*Simics/A0/\\wSE_CBB_DMR_A0_\\d\\d\\d\\d\\.\\d\\.\\d\\.\\d\\d\\d\\d_Release_PreProd_PV0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "simics_encrypted_binary": ".*Simics/A0/\\wSE_CBB_DMR_A0_\\d\\d\\d\\d\\.\\d\\.\\d\\.\\d\\d\\d\\d_Release_PreProd_PV0_enc\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_UV1_main_Acode",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "",
+              "mandatory_files": {
+                "patchlet": ".*acode_\\S+.patchlet"
+              }
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_tdbug",
+              "mandatory_files": {
+                "simics_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_RELEASE_Simics_PV\\d_Unencrypted\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "simics_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_RELEASE_Simics_PV\\d_Simics\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_UV2_main_Mcheck",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "",
+              "mandatory_files": {
+                "mcheck_inc": ".*.inc"
+              }
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "",
+              "mandatory_files": {
+                "mcheck_binary": ".*mcheck_section\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_UV2_main_OOBMSM",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "plaintext_binary": ".*patchlet\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_unsn",
+              "mandatory_files": {
+                "encrypted_binary": ".*patchlet_Encrypted\\.bin"
+              }
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_dbug",
+              "mandatory_files": {
+                "plaintext_binary": ".*DMR_IMH_A0_patchlet_clr_dbug\\.bin"
+              }
+            }
+          ]
+        },
+        {
+          "version": 3,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_dbug",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_A0_patchlet_clr_dbug\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_A0_patchlet_clr_dbug\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_UV2_main_pCode_CBB",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_dbug",
+              "mandatory_files": {
+                "plaintext_binary": ".*signed_pcode\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "encrypted_binary": ".*signed_encrypted_pcode\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_UV2_main_PrimeCode_IMH",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "plaintext_binary": ".*bin/pcode-io_clr_unsn\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_unsn",
+              "mandatory_files": {
+                "encrypted_binary": ".*bin/pcode-io_tenc_unsn\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_UV2_main_S3M",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_dbug",
+              "mandatory_files": {
+                "plaintext_binary": ".*s3m_release_\\w\\.\\w\\.\\w\\.\\w{4}_clear.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "encrypted_binary": ".*s3m_release_\\w\\.\\w\\.\\w\\.\\w{4}.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_UV2_main_ESE",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_dbug",
+              "mandatory_files": {
+                "simics_plaintext_binary": ".*Simics/A0/\\wSE_CBB_DMR_A0_\\d\\d\\d\\d\\.\\d\\.\\d\\.\\d\\d\\d\\d_Release_PreProd_PV0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "simics_encrypted_binary": ".*Simics/A0/\\wSE_CBB_DMR_A0_\\d\\d\\d\\d\\.\\d\\.\\d\\.\\d\\d\\d\\d_Release_PreProd_PV0_enc\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_UV2_main_Acode",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "",
+              "mandatory_files": {
+                "patchlet": ".*acode_\\S+.patchlet"
+              }
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_tdbug",
+              "mandatory_files": {
+                "simics_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_RELEASE_Simics_PV\\d_Unencrypted\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "simics_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_RELEASE_Simics_PV\\d_Simics\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_UV3_main_CoreFW",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "",
+              "mandatory_files": {
+                "corefw_inc": ".*patch_unipatch\\.inc",
+                "corefw_binary": ".*patch_unipatch_signed\\.bin",
+                "ucode_utils": ".*/ucode_utils"
+              }
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "",
+              "mandatory_files": {
+                "corefw_inc": ".*patch_unipatch\\.inc",
+                "corefw_binary": ".*patch_unipatch_signed\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_UV3_main_Mcheck",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "",
+              "mandatory_files": {
+                "mcheck_inc": ".*.inc"
+              }
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "",
+              "mandatory_files": {
+                "mcheck_binary": ".*mcheck_section\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_UV3_main_OOBMSM",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "plaintext_binary": ".*patchlet\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_unsn",
+              "mandatory_files": {
+                "encrypted_binary": ".*patchlet_Encrypted\\.bin"
+              }
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_dbug",
+              "mandatory_files": {
+                "plaintext_binary": ".*DMR_IMH_A0_patchlet_clr_dbug\\.bin"
+              }
+            }
+          ]
+        },
+        {
+          "version": 3,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_dbug",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_A0_patchlet_clr_dbug\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_A0_patchlet_clr_dbug\\.bin"
+              }
+            }
+          ]
+        },
+        {
+          "version": 4,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_dbug",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_UV3_patchlet_clr_dbug\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_UV3_patchlet_clr_dbug\\.bin"
+              }
+            }
+          ]
+        }
+        ,
+        {
+          "version": 5,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_dbug",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_UV3_patchlet_clr_dbug\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_UV3_patchlet_clr_dbug\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_dbug",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_UV3_patchlet_tenc_dbug\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_UV3_patchlet_tenc_dbug\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_UV3_main_pCode_CBB",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_dbug",
+              "mandatory_files": {
+                "plaintext_binary": ".*signed_pcode\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "encrypted_binary": ".*signed_encrypted_pcode\\.bin"
+              }
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_dbug",
+              "mandatory_files": {
+                "plaintext_binary": ".*/system_sim/image/signed_pcode\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "encrypted_binary": ".*/system_sim/image/signed_encrypted_pcode_simics\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_UV3_main_PrimeCode_IMH",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "plaintext_binary": ".*bin/pcode-io_clr_unsn\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_unsn",
+              "mandatory_files": {
+                "encrypted_binary": ".*bin/pcode-io_tenc_unsn\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_UV3_main_S3M",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_dbug",
+              "mandatory_files": {
+                "plaintext_binary": ".*s3m_release_\\w\\.\\w\\.\\w\\.\\w{4}_clear.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "encrypted_binary": ".*s3m_release_\\w\\.\\w\\.\\w\\.\\w{4}.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_UV3_main_ESE",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_dbug",
+              "mandatory_files": {
+                "simics_plaintext_binary": ".*Simics/A0/\\wSE_CBB_DMR_A0_\\d\\d\\d\\d\\.\\d\\.\\d\\.\\d\\d\\d\\d_Release_PreProd_PV0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "simics_encrypted_binary": ".*Simics/A0/\\wSE_CBB_DMR_A0_\\d\\d\\d\\d\\.\\d\\.\\d\\.\\d\\d\\d\\d_Release_PreProd_PV0_enc\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_UV3_main_Acode",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "",
+              "mandatory_files": {
+                "patchlet": ".*acode_\\S+.patchlet"
+              }
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_tdbug",
+              "mandatory_files": {
+                "simics_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_RELEASE_Simics_PV\\d_Unencrypted\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "simics_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_RELEASE_Simics_PV\\d_Simics\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_UV4_main_CoreFW",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "",
+              "mandatory_files": {
+                "corefw_inc": ".*patch_unipatch\\.inc",
+                "corefw_binary": ".*patch_unipatch_signed\\.bin",
+                "ucode_utils": ".*/ucode_utils"
+              }
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "",
+              "mandatory_files": {
+                "corefw_inc": ".*patch_unipatch\\.inc",
+                "corefw_binary": ".*patch_unipatch_signed\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_UV4_main_Mcheck",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "",
+              "mandatory_files": {
+                "mcheck_inc": ".*.inc"
+              }
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "",
+              "mandatory_files": {
+                "mcheck_binary": ".*mcheck_section\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_UV4_main_OOBMSM",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_dbug",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_UV4_patchlet_clr_dbug\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_UV4_patchlet_clr_dbug\\.bin"
+              }
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_dbug",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_UV4_patchlet_clr_dbug\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_UV4_patchlet_clr_dbug\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_dbug",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_UV4_patchlet_tenc_dbug\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_UV4_patchlet_tenc_dbug\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_UV4_main_pCode_CBB",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_dbug",
+              "mandatory_files": {
+                "plaintext_binary": ".*signed_pcode\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "encrypted_binary": ".*signed_encrypted_pcode\\.bin"
+              }
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_dbug",
+              "mandatory_files": {
+                "plaintext_binary": ".*/system_sim/image/signed_pcode\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "encrypted_binary": ".*/system_sim/image/signed_encrypted_pcode_simics\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_UV4_main_PrimeCode_IMH",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "plaintext_binary": ".*bin/pcode-io_clr_unsn\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_unsn",
+              "mandatory_files": {
+                "encrypted_binary": ".*bin/pcode-io_tenc_unsn\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_UV4_main_S3M",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "plaintext_binary": ".*s3m_\\w\\.\\w\\.\\w\\.\\w{4}_clr_unsn\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_tprod",
+              "mandatory_files": {
+                "encrypted_binary": ".*s3m_\\w\\.\\w\\.\\w\\.\\w{4}_tenc_tprod\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_UV4_main_ESE",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_dbug",
+              "mandatory_files": {
+                "simics_plaintext_binary": ".*Simics/A0/\\wSE_CBB_DMR_A0_\\d{4}.\\d\\.\\d\\.\\d{4}_Release_PreProd_PV0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "simics_encrypted_binary": ".*Simics/A0/\\wSE_CBB_DMR_A0_\\d{4}.\\d\\.\\d\\.\\d{4}_Release_PreProd_PV0_enc\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_UV4_main_Acode",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "",
+              "mandatory_files": {
+                "patchlet": ".*acode_\\S+.patchlet"
+              }
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_tdbug",
+              "mandatory_files": {
+                "simics_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_RELEASE_Simics_PV\\d_Unencrypted\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "simics_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_RELEASE_Simics_PV\\d_Simics\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_1p0_main_CoreFW",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "",
+              "mandatory_files": {
+                "corefw_inc": ".*patch_unipatch\\.inc",
+                "corefw_binary": ".*patch_unipatch_signed\\.bin",
+                "ucode_utils": ".*/ucode_utils"
+              }
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "",
+              "mandatory_files": {
+                "corefw_inc": ".*patch_unipatch\\.inc",
+                "corefw_binary": ".*patch_unipatch_signed\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            }
+          ]
+        },
+        {
+          "version": 3,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "corefw_inc": ".*patch_unipatch\\.inc",
+                "corefw_binary": ".*patch_unipatch\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "tenc_unsn",
+              "mandatory_files": {
+                "corefw_inc": ".*patch_unipatch\\.inc",
+                "corefw_binary": ".*patch_unipatch_encrypted\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "tenc_tdbug",
+              "mandatory_files": {
+                "corefw_inc": ".*patch_unipatch\\.inc",
+                "corefw_binary": ".*patch_unipatch_signed\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            }
+          ]
+        },
+        {
+          "version": 4,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "corefw_inc": ".*/8\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/8\\w{7}/patch_unipatch\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "tenc_unsn",
+              "mandatory_files": {
+                "corefw_inc": ".*/D\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/D\\w{7}/patch_unipatch_encrypted\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "tenc_tdbug",
+              "mandatory_files": {
+                "corefw_inc": ".*/D\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/D\\w{7}/patch_unipatch_signed\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "enc_unsn",
+              "mandatory_files": {
+                "corefw_inc": ".*/8\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/8\\w{7}/patch_unipatch_encrypted\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "corefw_inc": ".*/8\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/8\\w{7}/patch_unipatch_signed\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            }
+          ]
+        },
+        {
+          "version": 5,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "corefw_inc": ".*/8\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/8\\w{7}/patch_unipatch\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "tenc_unsn",
+              "mandatory_files": {
+                "corefw_inc": ".*/D\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/D\\w{7}/patch_unipatch_encrypted\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "tenc_tdbug",
+              "mandatory_files": {
+                "corefw_inc": ".*/D\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/D\\w{7}/patch_unipatch_signed_tenc_tdbug\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "enc_unsn",
+              "mandatory_files": {
+                "corefw_inc": ".*/8\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/8\\w{7}/patch_unipatch_encrypted\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "corefw_inc": ".*/8\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/8\\w{7}/patch_unipatch_signed_enc_dbug\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "enc_sed",
+              "mandatory_files": {},
+              "optional_files": {
+                "corefw_inc": ".*/1\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/1\\w{7}/patch_unipatch_signed_enc_sed\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "enc_prod",
+              "mandatory_files": {},
+              "optional_files": {
+                "corefw_inc": ".*/0\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/0\\w{7}/patch_unipatch_signed_enc_prod\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_1p0_main_Mcheck",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "",
+              "mandatory_files": {
+                "mcheck_inc": ".*.inc"
+              }
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "",
+              "mandatory_files": {
+                "mcheck_binary": ".*mcheck_section\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_1p0_main_OOBMSM",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_dbug",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_FV_patchlet_clr_dbug\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_FV_patchlet_clr_dbug\\.bin"
+              }
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_dbug",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_FV_patchlet_clr_dbug\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_FV_patchlet_clr_dbug\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_dbug",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_FV_patchlet_tenc_dbug\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_FV_patchlet_tenc_dbug\\.bin"
+              }
+            }
+          ]
+        },
+        {
+          "version": 3,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_dbug",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_clr_dbug\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_clr_dbug\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_dbug",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_tenc_dbug\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_tenc_dbug\\.bin"
+              }
+            }
+          ]
+        },
+        {
+          "version": 4,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_tprod",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_clr_dbug\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_clr_dbug\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_tprod",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_tenc_dbug\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_tenc_dbug\\.bin"
+              }
+            }
+          ]
+        },
+        {
+          "version": 5,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_tprod",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_clr_dbug\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_clr_dbug\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_tprod",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_tenc_dbug\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_tenc_dbug\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_enc_dbug\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_enc_dbug\\.bin"
+              }
+            },
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_clr_unsn\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_clr_unsn\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_unsn",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_enc_unsn\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_enc_unsn\\.bin"
+              }
+            }
+          ]
+        },
+        {
+          "version": 6,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_tprod",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_clr_dbug\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_clr_dbug\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_tprod",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_tenc_dbug\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_tenc_dbug\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_enc_dbug\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_enc_dbug\\.bin"
+              }
+            },
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_clr_unsn\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_clr_unsn\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_unsn",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_enc_unsn\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_enc_unsn\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_sed",
+              "mandatory_files": {},
+              "optional_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_enc_sed\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_enc_sed\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_prod",
+              "mandatory_files": {},
+              "optional_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_enc_prod\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_enc_prod\\.bin"
+              }
+            }
+          ]
+        },
+        {
+          "version": 7,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_clr_unsn_dbg0\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_clr_unsn_dbg0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_unsn",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_tenc_unsn_dbg0\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_tenc_unsn_dbg0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_unsn",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_enc_unsn_dbg0\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_enc_unsn_dbg0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_enc_dbug\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_enc_dbug\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_sed",
+              "mandatory_files": {},
+              "optional_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_enc_sed\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_enc_sed\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_prod",
+              "mandatory_files": {},
+              "optional_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_enc_prod\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_enc_prod\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_1p0_main_pCode_CBB",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_dbug",
+              "mandatory_files": {
+                "plaintext_binary": ".*/system_sim/image/signed_pcode\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "encrypted_binary": ".*/system_sim/image/signed_encrypted_pcode_simics\\.bin"
+              }
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_dbug",
+              "mandatory_files": {
+                "plaintext_binary": ".*/system/image/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{5}\\.\\d_.*_Unencrypted\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "encrypted_binary": ".*/system/image/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{5}\\.\\d_.*_simics\\.bin"
+              }
+            }
+          ]
+        },
+        {
+          "version": 3,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_tprod",
+              "mandatory_files": {
+                "plaintext_binary": ".*/system/image/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_.*_Unencrypted\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_tprod",
+              "mandatory_files": {
+                "encrypted_binary": ".*/system/image/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_.*_simics\\.bin"
+              }
+            }
+          ]
+        },
+        {
+          "version": 4,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_tprod",
+              "mandatory_files": {
+                "plaintext_binary": ".*/system/image/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_.*_Unencrypted\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_tprod",
+              "mandatory_files": {
+                "encrypted_binary": ".*/system/image/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_.*_simics\\.bin"
+              }
+            },
+            {
+              "sub_tag": "emu_tprod",
+              "mandatory_files": {
+                "encrypted_binary": ".*/system/image/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_.*_fpga\\.bin"
+              }
+            }
+          ]
+        },
+        {
+          "version": 5,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_tprod",
+              "mandatory_files": {
+                "plaintext_binary": ".*/system/image/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_PreProd_.*_Unencrypted\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_tprod",
+              "mandatory_files": {
+                "encrypted_binary": ".*/system/image/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_PreProd_.*_simics\\.bin"
+              }
+            },
+            {
+              "sub_tag": "emu_tprod",
+              "mandatory_files": {
+                "encrypted_binary": ".*/system/image/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_PreProd_.*_fpga\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "encrypted_binary": ".*/system/image/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_PreProd_.*_silicon\\.bin"
+              }
+            }
+          ]
+        },
+        {
+          "version": 6,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_tprod",
+              "mandatory_files": {
+                "plaintext_binary": ".*/system/image/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_\\w+?_PreProd_PV0_Unencrypted\\.bin"
+              }
+            },
+            {
+              "sub_tag": "clr_dbug",
+              "mandatory_files": {
+                "encrypted_binary": ".*/system/image/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_\\w+?_Debug_PV0_Unencrypted\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_tprod",
+              "mandatory_files": {
+                "encrypted_binary": ".*/system/image/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_\\w+?_PreProd_PV0_.*_simics\\.bin"
+              }
+            },
+            {
+              "sub_tag": "emu_tprod",
+              "mandatory_files": {
+                "encrypted_binary": ".*/system/image/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_\\w+?_PreProd_PV0_.*_fpga\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "encrypted_binary": ".*/system/image/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_\\w+?_Debug_PV0_PerDie\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_sed",
+              "mandatory_files": {},
+              "optional_files": {
+                "encrypted_binary": ".*/system/image/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_\\w+?_Prod_PV0_PerDie\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_prod",
+              "mandatory_files": {},
+              "optional_files": {
+                "encrypted_binary": ".*/system/image/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_\\w+?_Prod_PV1_PerDie\\.bin"
+              }
+            }
+          ]
+        },
+        {
+          "version": 7,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_tprod",
+              "mandatory_files": {
+                "plaintext_binary": ".*/system/image/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_\\w+?_PreProd_NA_Unencrypted\\.bin"
+              }
+            },
+            {
+              "sub_tag": "silicon_tprod",
+              "mandatory_files": {
+                "encrypted_binary": ".*/system/image/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_\\w+?_PreProd_NA_Static\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_tprod",
+              "mandatory_files": {
+                "encrypted_binary": ".*/system/image/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_\\w+?_PreProd_NA_Static_simics\\.bin"
+              }
+            },
+            {
+              "sub_tag": "emu_tprod",
+              "mandatory_files": {
+                "encrypted_binary": ".*/system/image/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_\\w+?_PreProd_NA_Static_fpga\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_tprod",
+              "mandatory_files": {
+                "encrypted_binary": ".*/Firmware/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_\\w+?_PreProd_PV0_PerDie\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "encrypted_binary": ".*/Firmware/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_\\w+?_Debug_PV0_PerDie\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_sed",
+              "mandatory_files": {},
+              "optional_files": {
+                "encrypted_binary": ".*/Firmware/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_\\w+?_Prod_PV0_PerDie\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_prod",
+              "mandatory_files": {},
+              "optional_files": {
+                "encrypted_binary": ".*/Firmware/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_\\w+?_Prod_PV1_PerDie\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_1p0_main_PrimeCode_IMH",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "plaintext_binary": ".*bin/pcode-io_clr_unsn\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_unsn",
+              "mandatory_files": {
+                "encrypted_binary": ".*bin/pcode-io_tenc_unsn\\.bin"
+              }
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "plaintext_binary": ".*bin/pcode-io_clr_unsn\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_unsn",
+              "mandatory_files": {
+                "encrypted_binary": ".*bin/pcode-io_tenc_unsn\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_unsn",
+              "mandatory_files": {
+                "encrypted_binary": ".*bin/pcode-io_enc_unsn\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "encrypted_binary": ".*bin/pcode-io_enc_dbug\\.bin"
+              }
+            }
+          ]
+        },
+        {
+          "version": 3,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "plaintext_binary": ".*bin/pcode-io_clr_unsn\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_unsn",
+              "mandatory_files": {
+                "encrypted_binary": ".*bin/pcode-io_tenc_unsn\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_unsn",
+              "mandatory_files": {
+                "encrypted_binary": ".*bin/pcode-io_enc_unsn\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "encrypted_binary": ".*bin/pcode-io_enc_dbug\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_sed",
+              "mandatory_files": {},
+              "optional_files": {
+                "encrypted_binary": ".*bin/pcode-io_enc_sed\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_prod",
+              "mandatory_files": {},
+              "optional_files": {
+                "encrypted_binary": ".*bin/pcode-io_enc_prod\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_1p0_main_Acode",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "",
+              "mandatory_files": {
+                "patchlet": ".*acode_\\S+.patchlet"
+              }
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_tdbug",
+              "mandatory_files": {
+                "simics_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_RELEASE_Simics_PV\\d_Unencrypted\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "simics_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_RELEASE_Simics_PV\\d_Simics\\.bin"
+              }
+            }
+          ]
+        },
+        {
+          "version": 3,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_tdbug",
+              "mandatory_files": {
+                "simics_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_\\w+?_Simics_PV\\d_Unencrypted\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "simics_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_\\w+?_Simics_PV\\d_Simics\\.bin"
+              }
+            }
+          ]
+        },
+        {
+          "version": 4,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_tprod",
+              "mandatory_files": {
+                "simics_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_\\w+?_Simics_PV\\d_Unencrypted\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_tprod",
+              "mandatory_files": {
+                "simics_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_\\w+?_Simics_PV\\d_Simics\\.bin"
+              }
+            }
+          ]
+        },
+        {
+          "version": 5,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_tprod",
+              "mandatory_files": {
+                "plaintext_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_\\w+?_Simics_PV0_Unencrypted\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_tprod",
+              "mandatory_files": {
+                "simics_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_\\w+?_Simics_PV0_Simics\\.bin"
+              }
+            },
+            {
+              "sub_tag": "emu_tprod",
+              "mandatory_files": {
+                "emulation_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_\\w+?_Simics_PV0_Emulation\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "silicon_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_\\w+?_PreProd_PV0_On-Die\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_sed",
+              "mandatory_files": {
+                "silicon_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_\\w+?_Prod_PV0_On-Die\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_prod",
+              "mandatory_files": {
+                "silicon_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_\\w+?_Prod_PV1_On-Die\\.bin"
+              }
+            }
+          ]
+        },
+        {
+          "version": 6,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_tprod",
+              "mandatory_files": {
+                "plaintext_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_\\w+?_Dyn_PV0_Unencrypted\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_tprod",
+              "mandatory_files": {
+                "simics_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_\\w+?_Simics_PV0_Simics\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_tprod",
+              "mandatory_files": {
+                "emulation_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_\\w+?_PreProd_PV0_Static\\.bin"
+              }
+            },
+            {
+              "sub_tag": "emu_tprod",
+              "mandatory_files": {
+                "emulation_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_\\w+?_Simics_PV0_Emulation\\.bin"
+              }
+            },
+            {
+              "sub_tag": "silicon_tprod",
+              "mandatory_files": {
+                "emulation_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_\\w+?_PreProd_PV0_Static\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "silicon_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_\\w+?_PreProd_PV0_On-Die\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_sed",
+              "mandatory_files": {
+                "silicon_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_\\w+?_Prod_PV0_On-Die\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_prod",
+              "mandatory_files": {
+                "silicon_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_\\w+?_Prod_PV1_On-Die\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_main_uCode",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "",
+              "mandatory_files": {
+                "ucode_utils": ".*ucode_utils$",
+                "ucode_patchlets": ".*/patchlets$",
+                "ice_code": ".*/icecode$",
+                "ucode_template": ".*/patch_template\\.template$",
+                "ucode_patch": ".*/patch_unipatch\\.patch$",
+                "model_src": ".*model_source\\.txt$"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_main_Mcheck",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "",
+              "mandatory_files": {
+                "mcheck_binary": ".*mcheck_section\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_main_XuCode",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "",
+              "mandatory_files": {
+                "xucode_binary": ".*xusection.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_main_Tcode",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "",
+              "mandatory_files": {
+                "tcode_patchlet": ".*tcode\\.patchlet"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_main_Acode",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_tprod",
+              "mandatory_files": {
+                "plaintext_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_\\w+?_Simics_PV0_Unencrypted\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_tprod",
+              "mandatory_files": {
+                "simics_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_\\w+?_Simics_PV0_Simics\\.bin"
+              }
+            },
+            {
+              "sub_tag": "emu_tprod",
+              "mandatory_files": {
+                "emulation_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_\\w+?_Simics_PV0_Emulation\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "silicon_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_\\w+?_PreProd_PV0_On-Die\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_sed",
+              "mandatory_files": {
+                "silicon_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_\\w+?_Prod_PV0_On-Die\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_prod",
+              "mandatory_files": {
+                "silicon_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_\\w+?_Prod_PV1_On-Die\\.bin"
+              }
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_tprod",
+              "mandatory_files": {
+                "plaintext_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_\\w+?_Dyn_PV0_Unencrypted\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_tprod",
+              "mandatory_files": {
+                "simics_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_\\w+?_Simics_PV0_Simics\\.bin"
+              }
+            },
+            {
+              "sub_tag": "emu_tprod",
+              "mandatory_files": {
+                "emulation_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_\\w+?_Simics_PV0_Emulation\\.bin"
+              }
+            },
+            {
+              "sub_tag": "silicon_tprod",
+              "mandatory_files": {
+                "emulation_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_\\w+?_PreProd_PV0_Static\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "optional_files": {
+                "silicon_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_\\w+?_PreProd_PV0_On-Die\\.bin"
+              },
+              "mandatory_files": {}
+            },
+            {
+              "sub_tag": "enc_sed",
+              "optional_files": {
+                "silicon_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_\\w+?_Prod_PV0_On-Die\\.bin"
+              },
+              
+              "mandatory_files": {}
+            },
+            {
+              "sub_tag": "enc_prod",
+              "optional_files": {
+                "silicon_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_\\w+?_Prod_PV1_On-Die\\.bin"
+              },
+              "mandatory_files": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_main_CoreFW",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "corefw_inc": ".*/8\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/8\\w{7}/patch_unipatch\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "tenc_unsn",
+              "mandatory_files": {
+                "corefw_inc": ".*/D\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/D\\w{7}/patch_unipatch_encrypted\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "tenc_tdbug",
+              "mandatory_files": {
+                "corefw_inc": ".*/D\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/D\\w{7}/patch_unipatch_signed_tenc_tdbug\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "enc_unsn",
+              "mandatory_files": {
+                "corefw_inc": ".*/8\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/8\\w{7}/patch_unipatch_encrypted\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "corefw_inc": ".*/8\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/8\\w{7}/patch_unipatch_signed_enc_dbug\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "enc_sed",
+              "mandatory_files": {},
+              "optional_files": {
+                "corefw_inc": ".*/1\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/1\\w{7}/patch_unipatch_signed_enc_sed\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "enc_prod",
+              "mandatory_files": {},
+              "optional_files": {
+                "corefw_inc": ".*/0\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/0\\w{7}/patch_unipatch_signed_enc_prod\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "corefw_inc": ".*/8\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/8\\w{7}/patch_unipatch\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "tenc_unsn",
+              "mandatory_files": {
+                "corefw_inc": ".*/D\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/D\\w{7}/patch_unipatch_encrypted\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "tenc_tdbug",
+              "mandatory_files": {
+                "corefw_inc": ".*/D\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/D\\w{7}/patch_unipatch_signed_tenc_tdbug\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "enc_unsn",
+              "mandatory_files": {
+                "corefw_inc": ".*/8\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/8\\w{7}/patch_unipatch_encrypted\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "enc_tprod",
+              "mandatory_files": {
+                "corefw_inc": ".*/5\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/5\\w{7}/patch_unipatch_encrypted_enc_unsn\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "corefw_inc": ".*/8\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/8\\w{7}/patch_unipatch_signed_enc_dbug\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "enc_sed",
+              "mandatory_files": {},
+              "optional_files": {
+                "corefw_inc": ".*/1\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/1\\w{7}/patch_unipatch_signed_enc_sed\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "enc_prod",
+              "mandatory_files": {},
+              "optional_files": {
+                "corefw_inc": ".*/0\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/0\\w{7}/patch_unipatch_signed_enc_prod\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            }
+          ]
+        },
+        {
+          "version": 3,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "corefw_inc": ".*/8\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/8\\w{7}/patch_unipatch\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "silicon_unsn",
+              "mandatory_files": {
+                "corefw_inc": ".*/5\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/5\\w{7}/patch_unipatch_encrypted_tenc_unsn\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "silicon_tdbug",
+              "mandatory_files": {
+                "corefw_inc": ".*/D\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/D\\w{7}/patch_unipatch_signed_tenc_tdbug\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "silicon_tprod",
+              "mandatory_files": {
+                "corefw_inc": ".*/5\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/5\\w{7}/patch_unipatch_encrypted_tenc_unsn\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "tenc_unsn",
+              "mandatory_files": {
+                "corefw_inc": ".*/5\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/5\\w{7}/patch_unipatch_encrypted_tenc_unsn\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "tenc_tdbug",
+              "mandatory_files": {
+                "corefw_inc": ".*/D\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/D\\w{7}/patch_unipatch_signed_tenc_tdbug\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "tenc_tprod",
+              "mandatory_files": {
+                "corefw_inc": ".*/5\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/5\\w{7}/patch_unipatch_encrypted_tenc_unsn\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "enc_unsn",
+              "mandatory_files": {
+                "corefw_inc": ".*/6\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/6\\w{7}/patch_unipatch_encrypted_enc_unsn\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "corefw_inc": ".*/8\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/8\\w{7}/patch_unipatch_signed_enc_dbug\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "enc_sed",
+              "mandatory_files": {},
+              "optional_files": {
+                "corefw_inc": ".*/1\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/1\\w{7}/patch_unipatch_signed_enc_sed\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "enc_prod",
+              "mandatory_files": {},
+              "optional_files": {
+                "corefw_inc": ".*/0\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/0\\w{7}/patch_unipatch_signed_enc_prod\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_main_OOBMSM",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_clr_unsn_dbg0\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_clr_unsn_dbg0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_unsn",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_tenc_unsn_dbg0\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_tenc_unsn_dbg0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_unsn",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_enc_unsn_dbg0\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_enc_unsn_dbg0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_enc_dbug\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_enc_dbug\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_sed",
+              "mandatory_files": {},
+              "optional_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_enc_sed\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_enc_sed\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_prod",
+              "mandatory_files": {},
+              "optional_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_enc_prod\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_enc_prod\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_main_OOBMSM_IMH1",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_clr_unsn_dbg0\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_clr_unsn_dbg0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_unsn",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_tenc_unsn_dbg0\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_tenc_unsn_dbg0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_unsn",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_enc_unsn_dbg0\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_enc_unsn_dbg0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_enc_dbug\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_enc_dbug\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_sed",
+              "mandatory_files": {},
+              "optional_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_enc_sed\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_enc_sed\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_prod",
+              "mandatory_files": {},
+              "optional_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_enc_prod\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_enc_prod\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "B0_main_OOBMSM_IMH1",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_clr_unsn_dbg0\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_clr_unsn_dbg0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_unsn",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_tenc_unsn_dbg0\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_tenc_unsn_dbg0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_unsn",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_enc_unsn_dbg0\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_enc_unsn_dbg0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_enc_dbug\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_enc_dbug\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_sed",
+              "mandatory_files": {},
+              "optional_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_enc_sed\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_enc_sed\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_prod",
+              "mandatory_files": {},
+              "optional_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_enc_prod\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_enc_prod\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_main_pCode_CBB",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_tprod",
+              "mandatory_files": {
+                "plaintext_binary": ".*/system/image/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_\\w+?_PreProd_NA_Unencrypted\\.bin"
+              }
+            },
+            {
+              "sub_tag": "silicon_tprod",
+              "mandatory_files": {
+                "encrypted_binary": ".*/system/image/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_\\w+?_PreProd_NA_Static\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_tprod",
+              "mandatory_files": {
+                "encrypted_binary": ".*/system/image/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_\\w+?_PreProd_NA_Static_simics\\.bin"
+              }
+            },
+            {
+              "sub_tag": "emu_tprod",
+              "mandatory_files": {
+                "encrypted_binary": ".*/system/image/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_\\w+?_PreProd_NA_Static_fpga\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_tprod",
+              "mandatory_files": {
+                "encrypted_binary": ".*/Firmware/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_\\w+?_PreProd_PV0_PerDie\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "encrypted_binary": ".*/Firmware/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_\\w+?_Debug_PV0_PerDie\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_sed",
+              "mandatory_files": {},
+              "optional_files": {
+                "encrypted_binary": ".*/Firmware/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_\\w+?_Prod_PV0_PerDie\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_prod",
+              "mandatory_files": {},
+              "optional_files": {
+                "encrypted_binary": ".*/Firmware/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_\\w+?_Prod_PV1_PerDie\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_main_PrimeCode_IMH",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "plaintext_binary": ".*bin/pcode-io_clr_unsn\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_unsn",
+              "mandatory_files": {
+                "encrypted_binary": ".*bin/pcode-io_tenc_unsn\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_unsn",
+              "mandatory_files": {
+                "encrypted_binary": ".*bin/pcode-io_enc_unsn\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "encrypted_binary": ".*bin/pcode-io_enc_dbug\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_sed",
+              "mandatory_files": {},
+              "optional_files": {
+                "encrypted_binary": ".*bin/pcode-io_enc_sed\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_prod",
+              "mandatory_files": {},
+              "optional_files": {
+                "encrypted_binary": ".*bin/pcode-io_enc_prod\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_main_PrimeCode_IMH1",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "plaintext_binary": ".*bin/pcode-io_clr_unsn\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_unsn",
+              "mandatory_files": {
+                "encrypted_binary": ".*bin/pcode-io_tenc_unsn\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_unsn",
+              "mandatory_files": {
+                "encrypted_binary": ".*bin/pcode-io_enc_unsn\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "encrypted_binary": ".*bin/pcode-io_enc_dbug\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_sed",
+              "mandatory_files": {},
+              "optional_files": {
+                "encrypted_binary": ".*bin/pcode-io_enc_sed\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_prod",
+              "mandatory_files": {},
+              "optional_files": {
+                "encrypted_binary": ".*bin/pcode-io_enc_prod\\.bin"
+              }
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "plaintext_binary": ".*pcode-io_clr_unsn\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_unsn",
+              "mandatory_files": {
+                "encrypted_binary": ".*pcode-io_tenc_unsn\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_unsn",
+              "mandatory_files": {
+                "encrypted_binary": ".*pcode-io_enc_unsn\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "encrypted_binary": ".*pcode-io_enc_dbug\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_sed",
+              "mandatory_files": {},
+              "optional_files": {
+                "encrypted_binary": ".*pcode-io_enc_sed\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_prod",
+              "mandatory_files": {},
+              "optional_files": {
+                "encrypted_binary": ".*pcode-io_enc_prod\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "B0_main_PrimeCode_IMH1",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "plaintext_binary": ".*pcode-io_clr_unsn\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_unsn",
+              "mandatory_files": {
+                "encrypted_binary": ".*pcode-io_tenc_unsn\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_unsn",
+              "mandatory_files": {
+                "encrypted_binary": ".*pcode-io_enc_unsn\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "encrypted_binary": ".*pcode-io_enc_dbug\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_sed",
+              "mandatory_files": {},
+              "optional_files": {
+                "encrypted_binary": ".*pcode-io_enc_sed\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_prod",
+              "mandatory_files": {},
+              "optional_files": {
+                "encrypted_binary": ".*pcode-io_enc_prod\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_PO_uCode",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "",
+              "mandatory_files": {
+                "ucode_utils": ".*ucode_utils$",
+                "ucode_patchlets": ".*/patchlets$",
+                "ice_code": ".*/icecode$",
+                "ucode_template": ".*/patch_template\\.template$",
+                "ucode_patch": ".*/patch_unipatch\\.patch$",
+                "model_src": ".*model_source\\.txt$"
+              }
+            },
+            {
+              "sub_tag": "silicon_tprod",
+              "mandatory_files": {
+                "ucode_utils": ".*ucode_utils$",
+                "ucode_patchlets": ".*/patchlets$",
+                "ice_code": ".*/icecode$",
+                "ucode_template": ".*/patch_template\\.template$",
+                "ucode_patch": ".*/patch_unipatch\\.patch$",
+                "model_src": ".*model_source\\.txt$"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_PO_Mcheck",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "",
+              "mandatory_files": {
+                "mcheck_binary": ".*mcheck_section\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_PO_XuCode",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "",
+              "mandatory_files": {
+                "xucode_binary": ".*xusection.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_PO_Tcode",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "",
+              "mandatory_files": {
+                "tcode_patchlet": ".*tcode\\.patchlet"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_PO_ESE",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "tenc_tprod",
+              "mandatory_files": {
+                "simics_binary": ".*Simics/A0/\\wSE_CBB_DMR_A0_\\d{4}\\.\\d\\.\\d\\.\\d{4}_Release_PreProd_PV0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "emu_tprod",
+              "mandatory_files": {
+                "emulation_binary": ".*Intel_Internal/.*/Emulation/MCP/\\wSE_CBB_DMR_A0_\\d{4}\\.\\d\\.\\d\\.\\d{4}_Release_PreProd_PV0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "silicon_binary": ".*Silicon/A0/\\wSE_CBB_DMR_A0_\\d{4}\\.\\d\\.\\d\\.\\d{4}_Release_PreProd_PV0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_sed",
+              "mandatory_files": {},
+              "optional_files": {
+                "silicon_binary": ".*Silicon/Production/A0/\\wSE_CBB_DMR_A0_\\d{4}\\.\\d\\.\\d\\.\\d{4}_Release_Prod_PV0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_prod",
+              "mandatory_files": {},
+              "optional_files": {
+                "silicon_binary": ".*Silicon/Production/A0/\\wSE_CBB_DMR_A0_\\d{4}\\.\\d\\.\\d\\.\\d{4}_Release_Prod_PV1\\.bin"
+              }
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_tprod",
+              "mandatory_files": {
+                "unenc_binary": ".*Intel_Internal/.*/Silicon/no_enc/\\wSE_CBB_DMR_A0_\\d{4}\\.\\d\\.\\d\\.\\d{4}_Release_PreProd_PV0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "emu_tprod",
+              "mandatory_files": {
+                "emulation_binary": ".*Intel_Internal/.*/Emulation/MCP/\\wSE_CBB_DMR_A0_\\d{4}\\.\\d\\.\\d\\.\\d{4}_Release_PreProd_PV0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "silicon_tprod",
+              "mandatory_files": {
+                "static_binary": ".*Intel_Internal/.*/Silicon/static_enc/\\wSE_CBB_DMR_A0_\\d{4}\\.\\d\\.\\d\\.\\d{4}_Release_PreProd_PV0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_tprod",
+              "mandatory_files": {
+                "simics_binary": ".*Simics/A0/\\wSE_CBB_DMR_A0_\\d{4}\\.\\d\\.\\d\\.\\d{4}_Release_PreProd_PV0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "silicon_binary": ".*Silicon/A0/\\wSE_CBB_DMR_A0_\\d{4}\\.\\d\\.\\d\\.\\d{4}_Release_PreProd_PV0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_tprod",
+              "mandatory_files": {
+                "silicon_binary": ".*Silicon/A0/\\wSE_CBB_DMR_A0_\\d{4}\\.\\d\\.\\d\\.\\d{4}_Release_PreProd_PV0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_sed",
+              "mandatory_files": {},
+              "optional_files": {
+                "silicon_binary": ".*Silicon/Production/A0/\\wSE_CBB_DMR_A0_\\d{4}\\.\\d\\.\\d\\.\\d{4}_Release_Prod_PV0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_prod",
+              "mandatory_files": {},
+              "optional_files": {
+                "silicon_binary": ".*Silicon/Production/A0/\\wSE_CBB_DMR_A0_\\d{4}\\.\\d\\.\\d\\.\\d{4}_Release_Prod_PV1\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_ESE_CBB",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_tprod",
+              "mandatory_files": {
+                "unenc_binary": ".*Intel_Internal/.*/Silicon/no_enc/\\wSE_CBB_DMR_A0_\\d{4}\\.\\d\\.\\d\\.\\d{4}_Release_PreProd_PV0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "emu_tprod",
+              "mandatory_files": {
+                "emulation_binary": ".*Intel_Internal/.*/Emulation/MCP/\\wSE_CBB_DMR_A0_\\d{4}\\.\\d\\.\\d\\.\\d{4}_Release_PreProd_PV0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "silicon_tprod",
+              "mandatory_files": {
+                "static_binary": ".*Intel_Internal/.*/Silicon/static_enc/\\wSE_CBB_DMR_A0_\\d{4}\\.\\d\\.\\d\\.\\d{4}_Release_PreProd_PV0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_tprod",
+              "mandatory_files": {
+                "simics_binary": ".*Simics/A0/\\wSE_CBB_DMR_A0_\\d{4}\\.\\d\\.\\d\\.\\d{4}_Release_PreProd_PV0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "silicon_binary": ".*Silicon/A0/\\wSE_CBB_DMR_A0_\\d{4}\\.\\d\\.\\d\\.\\d{4}_Release_PreProd_PV0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_tprod",
+              "mandatory_files": {
+                "silicon_binary": ".*Silicon/A0/\\wSE_CBB_DMR_A0_\\d{4}\\.\\d\\.\\d\\.\\d{4}_Release_PreProd_PV0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_sed",
+              "mandatory_files": {},
+              "optional_files": {
+                "silicon_binary": ".*Silicon/Production/A0/\\wSE_CBB_DMR_A0_\\d{4}\\.\\d\\.\\d\\.\\d{4}_Release_Prod_PV0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_prod",
+              "mandatory_files": {},
+              "optional_files": {
+                "silicon_binary": ".*Silicon/Production/A0/\\wSE_CBB_DMR_A0_\\d{4}\\.\\d\\.\\d\\.\\d{4}_Release_Prod_PV1\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "B0_ESE_CBB",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_tprod",
+              "mandatory_files": {
+                "unenc_binary": ".*Intel_Internal/.*/Silicon/no_enc/\\wSE_CBB_DMR_A0_\\d{4}\\.\\d\\.\\d\\.\\d{4}_Release_PreProd_PV0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "emu_tprod",
+              "mandatory_files": {
+                "emulation_binary": ".*Intel_Internal/.*/Emulation/MCP/\\wSE_CBB_DMR_A0_\\d{4}\\.\\d\\.\\d\\.\\d{4}_Release_PreProd_PV0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "silicon_tprod",
+              "mandatory_files": {
+                "static_binary": ".*Intel_Internal/.*/Silicon/static_enc/\\wSE_CBB_DMR_A0_\\d{4}\\.\\d\\.\\d\\.\\d{4}_Release_PreProd_PV0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_tprod",
+              "mandatory_files": {
+                "simics_binary": ".*Simics/A0/\\wSE_CBB_DMR_A0_\\d{4}\\.\\d\\.\\d\\.\\d{4}_Release_PreProd_PV0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "silicon_binary": ".*Silicon/A0/\\wSE_CBB_DMR_A0_\\d{4}\\.\\d\\.\\d\\.\\d{4}_Release_PreProd_PV0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_tprod",
+              "mandatory_files": {
+                "silicon_binary": ".*Silicon/A0/\\wSE_CBB_DMR_A0_\\d{4}\\.\\d\\.\\d\\.\\d{4}_Release_PreProd_PV0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_sed",
+              "mandatory_files": {},
+              "optional_files": {
+                "silicon_binary": ".*Silicon/Production/A0/\\wSE_CBB_DMR_A0_\\d{4}\\.\\d\\.\\d\\.\\d{4}_Release_Prod_PV0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_prod",
+              "mandatory_files": {},
+              "optional_files": {
+                "silicon_binary": ".*Silicon/Production/A0/\\wSE_CBB_DMR_A0_\\d{4}\\.\\d\\.\\d\\.\\d{4}_Release_Prod_PV1\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_PO_Acode",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_tprod",
+              "mandatory_files": {
+                "plaintext_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_\\w+?_Simics_PV0_Unencrypted\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_tprod",
+              "mandatory_files": {
+                "simics_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_\\w+?_Simics_PV0_Simics\\.bin"
+              }
+            },
+            {
+              "sub_tag": "emu_tprod",
+              "mandatory_files": {
+                "emulation_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_\\w+?_Simics_PV0_Emulation\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "silicon_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_\\w+?_PreProd_PV0_On-Die\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_sed",
+              "mandatory_files": {
+                "silicon_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_\\w+?_Prod_PV0_On-Die\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_prod",
+              "mandatory_files": {
+                "silicon_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_\\w+?_Prod_PV1_On-Die\\.bin"
+              }
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_tprod",
+              "mandatory_files": {
+                "plaintext_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_\\w+?_Dyn_PV0_Unencrypted\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_tprod",
+              "mandatory_files": {
+                "simics_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_\\w+?_Simics_PV0_Simics\\.bin"
+              }
+            },
+            {
+              "sub_tag": "emu_tprod",
+              "mandatory_files": {
+                "emulation_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_\\w+?_Simics_PV0_Emulation\\.bin"
+              }
+            },
+            {
+              "sub_tag": "silicon_tprod",
+              "mandatory_files": {
+                "emulation_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_\\w+?_PreProd_PV0_Static\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "silicon_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_\\w+?_PreProd_PV0_On-Die\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_sed",
+              "mandatory_files": {
+                "silicon_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_\\w+?_Dyn_PV0_On-Die\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_prod",
+              "mandatory_files": {},
+              "optional_files": {
+                "silicon_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_\\w+?_Prod_PV1_On-Die\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_PO_CoreFW",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "corefw_inc": ".*/8\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/8\\w{7}/patch_unipatch\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "tenc_unsn",
+              "mandatory_files": {
+                "corefw_inc": ".*/D\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/D\\w{7}/patch_unipatch_encrypted\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "tenc_tdbug",
+              "mandatory_files": {
+                "corefw_inc": ".*/D\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/D\\w{7}/patch_unipatch_signed_tenc_tdbug\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "enc_unsn",
+              "mandatory_files": {
+                "corefw_inc": ".*/8\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/8\\w{7}/patch_unipatch_encrypted\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "corefw_inc": ".*/8\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/8\\w{7}/patch_unipatch_signed_enc_dbug\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "enc_sed",
+              "mandatory_files": {},
+              "optional_files": {
+                "corefw_inc": ".*/1\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/1\\w{7}/patch_unipatch_signed_enc_sed\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "enc_prod",
+              "mandatory_files": {},
+              "optional_files": {
+                "corefw_inc": ".*/0\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/0\\w{7}/patch_unipatch_signed_enc_prod\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "corefw_inc": ".*/8\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/8\\w{7}/patch_unipatch\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "tenc_unsn",
+              "mandatory_files": {
+                "corefw_inc": ".*/D\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/D\\w{7}/patch_unipatch_encrypted\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "tenc_tdbug",
+              "mandatory_files": {
+                "corefw_inc": ".*/D\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/D\\w{7}/patch_unipatch_signed_tenc_tdbug\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "enc_unsn",
+              "mandatory_files": {
+                "corefw_inc": ".*/8\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/8\\w{7}/patch_unipatch_encrypted\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "enc_tprod",
+              "mandatory_files": {
+                "corefw_inc": ".*/5\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/5\\w{7}/patch_unipatch_encrypted_enc_unsn\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "corefw_inc": ".*/8\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/8\\w{7}/patch_unipatch_signed_enc_dbug\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "enc_sed",
+              "mandatory_files": {},
+              "optional_files": {
+                "corefw_inc": ".*/1\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/1\\w{7}/patch_unipatch_signed_enc_sed\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "enc_prod",
+              "mandatory_files": {},
+              "optional_files": {
+                "corefw_inc": ".*/0\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/0\\w{7}/patch_unipatch_signed_enc_prod\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            }
+          ]
+        },
+        {
+          "version": 3,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "corefw_inc": ".*/8\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/8\\w{7}/patch_unipatch\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "silicon_unsn",
+              "mandatory_files": {
+                "corefw_inc": ".*/5\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/5\\w{7}/patch_unipatch_encrypted_tenc_unsn\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "silicon_tdbug",
+              "mandatory_files": {
+                "corefw_inc": ".*/D\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/D\\w{7}/patch_unipatch_signed_tenc_tdbug\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "silicon_tprod",
+              "mandatory_files": {
+                "corefw_inc": ".*/5\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/5\\w{7}/patch_unipatch_encrypted_tenc_unsn\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "tenc_unsn",
+              "mandatory_files": {
+                "corefw_inc": ".*/5\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/5\\w{7}/patch_unipatch_encrypted_tenc_unsn\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "tenc_tdbug",
+              "mandatory_files": {
+                "corefw_inc": ".*/D\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/D\\w{7}/patch_unipatch_signed_tenc_tdbug\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "tenc_tprod",
+              "mandatory_files": {
+                "corefw_inc": ".*/5\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/5\\w{7}/patch_unipatch_encrypted_tenc_unsn\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "enc_unsn",
+              "mandatory_files": {
+                "corefw_inc": ".*/6\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/6\\w{7}/patch_unipatch_encrypted_enc_unsn\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "corefw_inc": ".*/8\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/8\\w{7}/patch_unipatch_signed_enc_dbug\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "enc_sed",
+              "mandatory_files": {},
+              "optional_files": {
+                "corefw_inc": ".*/1\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/1\\w{7}/patch_unipatch_signed_enc_sed\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "enc_prod",
+              "mandatory_files": {},
+              "optional_files": {
+                "corefw_inc": ".*/0\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/0\\w{7}/patch_unipatch_signed_enc_prod\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_PO_OOBMSM",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_clr_unsn_dbg0\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_clr_unsn_dbg0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_unsn",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_tenc_unsn_dbg0\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_tenc_unsn_dbg0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_unsn",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_enc_unsn_dbg0\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_enc_unsn_dbg0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_enc_dbug\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_enc_dbug\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_sed",
+              "mandatory_files": {},
+              "optional_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_enc_sed\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_enc_sed\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_prod",
+              "mandatory_files": {},
+              "optional_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_enc_prod\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_enc_prod\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_PO_OOBMSM_IMH1",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_clr_unsn_dbg0\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_clr_unsn_dbg0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_unsn",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_tenc_unsn_dbg0\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_tenc_unsn_dbg0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_unsn",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_enc_unsn_dbg0\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_enc_unsn_dbg0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_enc_dbug\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_enc_dbug\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_sed",
+              "mandatory_files": {},
+              "optional_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_enc_sed\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_enc_sed\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_prod",
+              "mandatory_files": {},
+              "optional_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_enc_prod\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_enc_prod\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_PO_pCode_CBB",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_tprod",
+              "mandatory_files": {
+                "plaintext_binary": ".*/Firmware/output/system/image/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_Private_NA_Unencrypted\\.bin"
+              }
+            },
+            {
+              "sub_tag": "silicon_tprod",
+              "mandatory_files": {
+                "encrypted_binary": ".*/Firmware/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_\\w+?_PreProd_NA_Static\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_tprod",
+              "mandatory_files": {
+                "encrypted_binary": ".*/system/image/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_\\w+?_PreProd_NA_Static_simics\\.bin"
+              }
+            },
+            {
+              "sub_tag": "emu_tprod",
+              "mandatory_files": {
+                "encrypted_binary": ".*/system/image/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_\\w+?_PreProd_NA_Static_fpga\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_tprod",
+              "mandatory_files": {
+                "encrypted_binary": ".*/Firmware/output/system/image/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_Private_NA_Static\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "encrypted_binary": ".*/Firmware/DEBUG_ONLY_PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_\\w+?_Debug_PV0_PerDie\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_sed",
+              "mandatory_files": {},
+              "optional_files": {
+                "encrypted_binary": ".*/Firmware/output/system/image/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_Private_NA_Static\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_prod",
+              "mandatory_files": {},
+              "optional_files": {
+                "encrypted_binary": ".*/Firmware/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_\\w+?_Prod_PV1_PerDie\\.bin"
+              }
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_tprod",
+              "mandatory_files": {
+                "plaintext_binary": ".*/Firmware/PCODE_CBB_\\w{2}_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_\\w+?_NA_Unencrypted\\.bin"
+              }
+            },
+            {
+              "sub_tag": "silicon_tprod",
+              "mandatory_files": {
+                "encrypted_binary": ".*/Firmware/PCODE_CBB_\\w{2}_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_\\w+?_NA_Static\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_tprod",
+              "mandatory_files": {
+                "encrypted_binary": ".*/system/image/PCODE_CBB_\\w{2}_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_\\w+?_NA_Static_simics\\.bin"
+              }
+            },
+            {
+              "sub_tag": "emu_tprod",
+              "mandatory_files": {
+                "encrypted_binary": ".*/system/image/PCODE_CBB_\\w{2}_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_\\w+?_NA_Static_fpga\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_tprod",
+              "mandatory_files": {
+                "encrypted_binary": ".*/Firmware/PCODE_CBB_\\w{2}_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_\\w+?_NA_Static\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "encrypted_binary": ".*/Firmware/DEBUG_ONLY_PCODE_CBB_\\w{2}_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_\\w+?_Debug_PV0_PerDie\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_sed",
+              "mandatory_files": {},
+              "optional_files": {
+                "encrypted_binary": ".*/Firmware/PCODE_CBB_\\w{2}_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_\\w+?_Prod_PV0_PerDie\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_prod",
+              "mandatory_files": {},
+              "optional_files": {
+                "encrypted_binary": ".*/Firmware/PCODE_CBB_\\w{2}_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_\\w+?_Prod_PV1_PerDie\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_PO_PrimeCode_IMH",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "plaintext_binary": ".*bin/pcode-io_clr_unsn\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_unsn",
+              "mandatory_files": {
+                "encrypted_binary": ".*bin/pcode-io_tenc_unsn\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_unsn",
+              "mandatory_files": {
+                "encrypted_binary": ".*bin/pcode-io_enc_unsn\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "encrypted_binary": ".*bin/pcode-io_enc_dbug\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_tprod",
+              "mandatory_files": {
+                "encrypted_binary": ".*bin/pcode-io_enc_sed\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_sed",
+              "mandatory_files": {},
+              "optional_files": {
+                "encrypted_binary": ".*bin/pcode-io_enc_sed\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_prod",
+              "mandatory_files": {},
+              "optional_files": {
+                "encrypted_binary": ".*bin/pcode-io_enc_prod\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_PO_PrimeCode_IMH1",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "plaintext_binary": ".*bin/pcode-io_clr_unsn\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_unsn",
+              "mandatory_files": {
+                "encrypted_binary": ".*bin/pcode-io_tenc_unsn\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_unsn",
+              "mandatory_files": {
+                "encrypted_binary": ".*bin/pcode-io_enc_unsn\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "encrypted_binary": ".*bin/pcode-io_enc_dbug\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_sed",
+              "mandatory_files": {},
+              "optional_files": {
+                "encrypted_binary": ".*bin/pcode-io_enc_sed\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_prod",
+              "mandatory_files": {},
+              "optional_files": {
+                "encrypted_binary": ".*bin/pcode-io_enc_prod\\.bin"
+              }
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "plaintext_binary": ".*pcode-io_clr_unsn\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_unsn",
+              "mandatory_files": {
+                "encrypted_binary": ".*pcode-io_tenc_unsn\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_unsn",
+              "mandatory_files": {
+                "encrypted_binary": ".*pcode-io_enc_unsn\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "encrypted_binary": ".*pcode-io_enc_dbug\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_sed",
+              "mandatory_files": {},
+              "optional_files": {
+                "encrypted_binary": ".*pcode-io_enc_sed\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_prod",
+              "mandatory_files": {},
+              "optional_files": {
+                "encrypted_binary": ".*pcode-io_enc_prod\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_PO_S3M_IMH1",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "plaintext_binary": ".*s3m_imh1_\\w\\.\\w\\.\\w\\.\\w{4}_clr_unsn\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_tprod",
+              "mandatory_files": {
+                "encrypted_binary": ".*s3m_imh1_\\w\\.\\w\\.\\w\\.\\w{4}_tenc_tprod\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_unsn",
+              "mandatory_files": {
+                "encrypted_binary": ".*s3m_imh1_\\w\\.\\w\\.\\w\\.\\w{4}_enc_unsn\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {},
+              "optional_files": {
+                "encrypted_binary": ".*s3m_imh1_\\w\\.\\w\\.\\w\\.\\w{4}_enc_dbug\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_sed",
+              "mandatory_files": {},
+              "optional_files": {
+                "encrypted_binary": ".*s3m_imh1_\\w\\.\\w\\.\\w\\.\\w{4}_enc_sed.*\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_prod",
+              "mandatory_files": {},
+              "optional_files": {
+                "encrypted_binary": ".*s3m_imh1_\\w\\.\\w\\.\\w\\.\\w{4}_enc_prod\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_0p8_main_OOBMSM_IMH2",
+      "format_rule": [        
+        {
+          "version": 1,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_tprod",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_\\S+_patchlet_clr_dbug\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_\\S+_patchlet_clr_dbug\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_tprod",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_\\S+_patchlet_tenc_dbug\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_\\S+_patchlet_tenc_dbug\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_0p5_main_OOBMSM_IMH2",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_dbug",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_clr_dbug\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_clr_dbug\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_dbug",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_tenc_dbug\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_tenc_dbug\\.bin"
+              }
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_tprod",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH2_\\S+_patchlet_clr_dbug\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_clr_dbug\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_tprod",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH2_\\S+_patchlet_tenc_dbug\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_tenc_dbug\\.bin"
+              }
+            }
+          ]
+        },
+        {
+          "version": 3,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_tprod",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_\\S+_patchlet_clr_dbug\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_\\S+_patchlet_clr_dbug\\.bin"
+              }
+            },
+            {
+              "sub_tag": "silicon_tprod",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_\\S+_patchlet_tenc_dbug\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_\\S+_patchlet_tenc_dbug\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_tprod",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_\\S+_patchlet_tenc_dbug\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_\\S+_patchlet_tenc_dbug\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_0p5_experimental_OOBMSM_IMH2",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_dbug",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_clr_dbug\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_clr_dbug\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_dbug",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_tenc_dbug\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_tenc_dbug\\.bin"
+              }
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_tprod",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH2_\\S+_patchlet_clr_dbug\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_clr_dbug\\.bin"
+              }
+            },
+            {
+              "sub_tag": "silicon_tprod",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH2_\\S+_patchlet_tenc_dbug\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_tenc_dbug\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_tprod",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH2_\\S+_patchlet_tenc_dbug\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_tenc_dbug\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "A0_0p5_main_PrimeCode_IMH2",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "plaintext_binary": ".*bin/pcode-io_clr_unsn\\.bin"
+              }
+            },
+            {
+              "sub_tag": "silicon_tprod",
+              "mandatory_files": {
+                "encrypted_binary": ".*bin/pcode-io_enc_unsn\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_unsn",
+              "mandatory_files": {
+                "encrypted_binary": ".*bin/pcode-io_tenc_unsn\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+     {
+      "ingredient_name": "B0_main_PrimeCode_IMH2",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "plaintext_binary": ".*bin/pcode-io_clr_unsn\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_unsn",
+              "mandatory_files": {
+                "encrypted_binary": ".*bin/pcode-io_tenc_unsn\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "B0_main_CoreFW",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "corefw_inc": ".*patch_unipatch\\.inc",
+                "corefw_binary": ".*patch_unipatch\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "tenc_unsn",
+              "mandatory_files": {
+                "corefw_inc": ".*patch_unipatch\\.inc",
+                "corefw_binary": ".*patch_unipatch_encrypted\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "tenc_tdbug",
+              "mandatory_files": {
+                "corefw_inc": ".*patch_unipatch\\.inc",
+                "corefw_binary": ".*patch_unipatch_signed\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "corefw_inc": ".*/patch_unipatch\\.inc",
+                "corefw_binary": ".*/patch_unipatch\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "tenc_unsn",
+              "mandatory_files": {
+                "corefw_inc": ".*/5\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/5\\w{7}/patch_unipatch_encrypted_tenc_unsn\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "tenc_tdbug",
+              "mandatory_files": {
+                "corefw_inc": ".*/D\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/D\\w{7}/patch_unipatch_signed_tenc_tdbug\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "enc_unsn",
+              "mandatory_files": {
+                "corefw_inc": ".*/6\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/6\\w{7}/patch_unipatch_encrypted_enc_unsn\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {
+                "corefw_inc": ".*/8\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/8\\w{7}/patch_unipatch_signed_enc_dbug\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "enc_sed",
+              "mandatory_files": {},
+              "optional_files": {
+                "corefw_inc": ".*/1\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/1\\w{7}/patch_unipatch_signed_enc_sed\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            },
+            {
+              "sub_tag": "enc_prod",
+              "mandatory_files": {},
+              "optional_files": {
+                "corefw_inc": ".*/0\\w{7}/patch_unipatch\\.inc",
+                "corefw_binary": ".*/0\\w{7}/patch_unipatch_signed_enc_prod\\.bin",
+                "ucode_utils": ".*ucode_utils"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "B0_main_pCode_CBB",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_tprod",
+              "mandatory_files": {
+                "plaintext_binary": ".*/system/image/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_.*_Unencrypted\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_tprod",
+              "mandatory_files": {
+                "encrypted_binary": ".*/system/image/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_.*_simics\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient_name": "B0_main_OOBMSM_IMH2",
+      "format_rule": [
+        {
+          "version": 1,
+          "project_in_use": false,
+          "package_format": [
+            {
+              "sub_tag": "clr_tprod",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_clr_dbug\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_clr_dbug\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_tprod",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_tenc_dbug\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_tenc_dbug\\.bin"
+              }
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "project_in_use": true,
+          "package_format": [
+            {
+              "sub_tag": "clr_unsn",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_clr_unsn_dbg0\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_clr_unsn_dbg0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "tenc_unsn",
+              "mandatory_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_tenc_unsn_dbg0\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_tenc_unsn_dbg0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_unsn",
+              "mandatory_files": {},
+              "optional_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_enc_unsn_dbg0\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_enc_unsn_dbg0\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_dbug",
+              "mandatory_files": {},
+              "optional_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_enc_dbug\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_enc_dbug\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_sed",
+              "mandatory_files": {},
+              "optional_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_enc_sed\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_enc_sed\\.bin"
+              }
+            },
+            {
+              "sub_tag": "enc_prod",
+              "mandatory_files": {},
+              "optional_files": {
+                "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_enc_prod\\.bin",
+                "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_enc_prod\\.bin"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

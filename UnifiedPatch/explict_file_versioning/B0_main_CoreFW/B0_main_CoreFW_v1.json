@@ -1,0 +1,30 @@
+{
+  "ingredient_name": "B0_main_CoreFW",
+  "version": 1,
+  "package_format": [
+    {
+      "sub_tag": "clr_unsn",
+      "mandatory_files": {
+        "corefw_inc": ".*patch_unipatch\\.inc",
+        "corefw_binary": ".*patch_unipatch\\.bin",
+        "ucode_utils": ".*ucode_utils"
+      }
+    },
+    {
+      "sub_tag": "tenc_unsn",
+      "mandatory_files": {
+        "corefw_inc": ".*patch_unipatch\\.inc",
+        "corefw_binary": ".*patch_unipatch_encrypted\\.bin",
+        "ucode_utils": ".*ucode_utils"
+      }
+    },
+    {
+      "sub_tag": "tenc_tdbug",
+      "mandatory_files": {
+        "corefw_inc": ".*patch_unipatch\\.inc",
+        "corefw_binary": ".*patch_unipatch_signed\\.bin",
+        "ucode_utils": ".*ucode_utils"
+      }
+    }
+  ]
+}

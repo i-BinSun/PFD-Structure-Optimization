@@ -1,0 +1,20 @@
+{
+  "ingredient_name": "A0_1p0_main_OOBMSM",
+  "version": 2,
+  "package_format": [
+    {
+      "sub_tag": "clr_dbug",
+      "mandatory_files": {
+        "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_FV_patchlet_clr_dbug\\.bin",
+        "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_FV_patchlet_clr_dbug\\.bin"
+      }
+    },
+    {
+      "sub_tag": "tenc_dbug",
+      "mandatory_files": {
+        "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_FV_patchlet_tenc_dbug\\.bin",
+        "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_FV_patchlet_tenc_dbug\\.bin"
+      }
+    }
+  ]
+}

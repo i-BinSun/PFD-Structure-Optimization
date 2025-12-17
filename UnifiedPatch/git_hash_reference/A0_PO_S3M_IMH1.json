@@ -1,0 +1,44 @@
+{
+  "ingredient_name": "A0_PO_S3M_IMH1",
+  "package_format": [
+    {
+      "sub_tag": "clr_unsn",
+      "mandatory_files": {
+        "plaintext_binary": ".*s3m_imh1_\\w\\.\\w\\.\\w\\.\\w{4}_clr_unsn\\.bin"
+      }
+    },
+    {
+      "sub_tag": "tenc_tprod",
+      "mandatory_files": {
+        "encrypted_binary": ".*s3m_imh1_\\w\\.\\w\\.\\w\\.\\w{4}_tenc_tprod\\.bin"
+      }
+    },
+    {
+      "sub_tag": "enc_unsn",
+      "mandatory_files": {
+        "encrypted_binary": ".*s3m_imh1_\\w\\.\\w\\.\\w\\.\\w{4}_enc_unsn\\.bin"
+      }
+    },
+    {
+      "sub_tag": "enc_dbug",
+      "mandatory_files": {},
+      "optional_files": {
+        "encrypted_binary": ".*s3m_imh1_\\w\\.\\w\\.\\w\\.\\w{4}_enc_dbug\\.bin"
+      }
+    },
+    {
+      "sub_tag": "enc_sed",
+      "mandatory_files": {},
+      "optional_files": {
+        "encrypted_binary": ".*s3m_imh1_\\w\\.\\w\\.\\w\\.\\w{4}_enc_sed.*\\.bin"
+      }
+    },
+    {
+      "sub_tag": "enc_prod",
+      "mandatory_files": {},
+      "optional_files": {
+        "encrypted_binary": ".*s3m_imh1_\\w\\.\\w\\.\\w\\.\\w{4}_enc_prod\\.bin"
+      }
+    }
+  ]
+}

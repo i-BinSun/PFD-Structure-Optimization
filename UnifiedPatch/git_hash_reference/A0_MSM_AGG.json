@@ -1,0 +1,11 @@
+{
+  "ingredient_name": "A0_MSM_AGG",
+  "package_format": [
+    {
+      "sub_tag": "clr_dbug",
+      "mandatory_files": {
+        "plaintext_binary": ".*DMR_AGG_A0_patchlet_clr_dbug\\.bin"
+      }
+    }
+  ]
+}

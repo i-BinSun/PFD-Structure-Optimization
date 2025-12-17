@@ -1,0 +1,14 @@
+{
+    "ingredient_name": "MMC1",
+    "version": 1,
+    "package_format": [
+        {
+            "sub_tag": "",
+            "mandatory_files": [
+                {
+                    "Unified_Patch_binary_file": ".*.bin$"
+                }
+            ]
+        }
+    ]
+}

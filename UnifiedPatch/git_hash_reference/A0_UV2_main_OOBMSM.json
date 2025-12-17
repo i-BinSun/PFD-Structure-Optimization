@@ -1,0 +1,12 @@
+{
+  "ingredient_name": "A0_UV2_main_OOBMSM",
+  "package_format": [
+    {
+      "sub_tag": "clr_dbug",
+      "mandatory_files": {
+        "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_A0_patchlet_clr_dbug\\.bin",
+        "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_A0_patchlet_clr_dbug\\.bin"
+      }
+    }
+  ]
+}

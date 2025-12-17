@@ -1,0 +1,17 @@
+{
+  "ingredient_name": "A0_UV1_main_pCode_CBB",
+  "package_format": [
+    {
+      "sub_tag": "clr_dbug",
+      "mandatory_files": {
+        "plaintext_binary": ".*signed_pcode\\.bin"
+      }
+    },
+    {
+      "sub_tag": "enc_dbug",
+      "mandatory_files": {
+        "encrypted_binary": ".*signed_encrypted_pcode\\.bin"
+      }
+    }
+  ]
+}

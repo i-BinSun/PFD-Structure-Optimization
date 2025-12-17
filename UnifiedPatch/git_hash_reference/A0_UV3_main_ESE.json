@@ -1,0 +1,17 @@
+{
+  "ingredient_name": "A0_UV3_main_ESE",
+  "package_format": [
+    {
+      "sub_tag": "clr_dbug",
+      "mandatory_files": {
+        "simics_plaintext_binary": ".*Simics/A0/\\wSE_CBB_DMR_A0_\\d\\d\\d\\d\\.\\d\\.\\d\\.\\d\\d\\d\\d_Release_PreProd_PV0\\.bin"
+      }
+    },
+    {
+      "sub_tag": "enc_dbug",
+      "mandatory_files": {
+        "simics_encrypted_binary": ".*Simics/A0/\\wSE_CBB_DMR_A0_\\d\\d\\d\\d\\.\\d\\.\\d\\.\\d\\d\\d\\d_Release_PreProd_PV0_enc\\.bin"
+      }
+    }
+  ]
+}

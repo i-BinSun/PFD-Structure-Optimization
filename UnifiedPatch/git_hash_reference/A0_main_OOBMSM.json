@@ -1,0 +1,49 @@
+{
+  "ingredient_name": "A0_main_OOBMSM",
+  "package_format": [
+    {
+      "sub_tag": "clr_unsn",
+      "mandatory_files": {
+        "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_clr_unsn_dbg0\\.bin",
+        "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_clr_unsn_dbg0\\.bin"
+      }
+    },
+    {
+      "sub_tag": "tenc_unsn",
+      "mandatory_files": {
+        "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_tenc_unsn_dbg0\\.bin",
+        "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_tenc_unsn_dbg0\\.bin"
+      }
+    },
+    {
+      "sub_tag": "enc_unsn",
+      "mandatory_files": {
+        "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_enc_unsn_dbg0\\.bin",
+        "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_enc_unsn_dbg0\\.bin"
+      }
+    },
+    {
+      "sub_tag": "enc_dbug",
+      "mandatory_files": {
+        "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_enc_dbug\\.bin",
+        "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_enc_dbug\\.bin"
+      }
+    },
+    {
+      "sub_tag": "enc_sed",
+      "mandatory_files": {},
+      "optional_files": {
+        "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_enc_sed\\.bin",
+        "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_enc_sed\\.bin"
+      }
+    },
+    {
+      "sub_tag": "enc_prod",
+      "mandatory_files": {},
+      "optional_files": {
+        "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_\\S+_patchlet_enc_prod\\.bin",
+        "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_\\S+_patchlet_enc_prod\\.bin"
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "ingredient_name": "B0_main_PrimeCode_IMH2",
+  "package_format": [
+    {
+      "sub_tag": "clr_unsn",
+      "mandatory_files": {
+        "plaintext_binary": ".*bin/pcode-io_clr_unsn\\.bin"
+      }
+    },
+    {
+      "sub_tag": "tenc_unsn",
+      "mandatory_files": {
+        "encrypted_binary": ".*bin/pcode-io_tenc_unsn\\.bin"
+      }
+    }
+  ]
+}

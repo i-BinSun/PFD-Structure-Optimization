@@ -1,0 +1,18 @@
+{
+  "ingredient_name": "A0_1p0_main_pCode_CBB",
+  "version": 2,
+  "package_format": [
+    {
+      "sub_tag": "clr_dbug",
+      "mandatory_files": {
+        "plaintext_binary": ".*/system/image/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{5}\\.\\d_.*_Unencrypted\\.bin"
+      }
+    },
+    {
+      "sub_tag": "enc_dbug",
+      "mandatory_files": {
+        "encrypted_binary": ".*/system/image/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{5}\\.\\d_.*_simics\\.bin"
+      }
+    }
+  ]
+}

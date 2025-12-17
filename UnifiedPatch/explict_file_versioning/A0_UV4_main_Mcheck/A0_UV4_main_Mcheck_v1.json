@@ -1,0 +1,12 @@
+{
+  "ingredient_name": "A0_UV4_main_Mcheck",
+  "version": 1,
+  "package_format": [
+    {
+      "sub_tag": "",
+      "mandatory_files": {
+        "mcheck_inc": ".*.inc"
+      }
+    }
+  ]
+}

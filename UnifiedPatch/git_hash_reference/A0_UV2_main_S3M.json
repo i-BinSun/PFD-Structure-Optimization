@@ -1,0 +1,17 @@
+{
+  "ingredient_name": "A0_UV2_main_S3M",
+  "package_format": [
+    {
+      "sub_tag": "clr_dbug",
+      "mandatory_files": {
+        "plaintext_binary": ".*s3m_release_\\w\\.\\w\\.\\w\\.\\w{4}_clear.bin"
+      }
+    },
+    {
+      "sub_tag": "enc_dbug",
+      "mandatory_files": {
+        "encrypted_binary": ".*s3m_release_\\w\\.\\w\\.\\w\\.\\w{4}.bin"
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "ingredient_name": "A0_ESE",
+  "version": 2,
+  "package_format": [
+    {
+      "sub_tag": "",
+      "mandatory_files": {
+        "simics_binary": ".*Simics/A0/\\wSE_CBB_DMR_A0_\\d\\d\\d\\d\\.\\d\\.\\d\\.\\d\\d\\d\\d_Release_PreProd_PV0\\.bin"
+      }
+    }
+  ]
+}

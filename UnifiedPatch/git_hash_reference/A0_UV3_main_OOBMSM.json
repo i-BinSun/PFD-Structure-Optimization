@@ -1,0 +1,19 @@
+{
+  "ingredient_name": "A0_UV3_main_OOBMSM",
+  "package_format": [
+    {
+      "sub_tag": "clr_dbug",
+      "mandatory_files": {
+        "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_UV3_patchlet_clr_dbug\\.bin",
+        "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_UV3_patchlet_clr_dbug\\.bin"
+      }
+    },
+    {
+      "sub_tag": "tenc_dbug",
+      "mandatory_files": {
+        "oobmsm_binary": ".*OOBMSM/patchlet/DMR_IMH_UV3_patchlet_tenc_dbug\\.bin",
+        "msm_agg_binary": ".*MSM_AGG/patchlet/DMR_AGG_UV3_patchlet_tenc_dbug\\.bin"
+      }
+    }
+  ]
+}

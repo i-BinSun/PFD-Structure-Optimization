@@ -1,0 +1,11 @@
+{
+  "ingredient_name": "A0_main_Mcheck",
+  "package_format": [
+    {
+      "sub_tag": "",
+      "mandatory_files": {
+        "mcheck_binary": ".*mcheck_section\\.bin"
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "ingredient_name": "A0_UV4_main_CoreFW",
+  "package_format": [
+    {
+      "sub_tag": "",
+      "mandatory_files": {
+        "corefw_inc": ".*patch_unipatch\\.inc",
+        "corefw_binary": ".*patch_unipatch_signed\\.bin",
+        "ucode_utils": ".*ucode_utils"
+      }
+    }
+  ]
+}

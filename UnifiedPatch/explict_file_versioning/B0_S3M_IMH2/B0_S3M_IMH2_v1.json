@@ -1,0 +1,24 @@
+{
+  "ingredient_name": "B0_S3M_IMH2",
+  "version": 1,
+  "package_format": [
+    {
+      "sub_tag": "clr_unsn",
+      "mandatory_files": {
+        "plaintext_binary": ".*s3m_imh2_\\w\\.\\w\\.\\w\\.\\w{4}_clr_unsn.bin"
+      }
+    },
+    {
+      "sub_tag": "tenc_tprod",
+      "mandatory_files": {
+        "encrypted_binary": ".*s3m_imh2_\\w\\.\\w\\.\\w\\.\\w{4}_tenc_tprod.bin"
+      }
+    },
+    {
+      "sub_tag": "enc_unsn",
+      "mandatory_files": {
+        "encrypted_binary": ".*s3m_imh2_\\w\\.\\w\\.\\w\\.\\w{4}_enc_unsn.bin"
+      }
+    }
+  ]
+}

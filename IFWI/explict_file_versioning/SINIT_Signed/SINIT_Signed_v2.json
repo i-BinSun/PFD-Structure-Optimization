@@ -1,0 +1,22 @@
+{
+    "ingredient_name": "SINIT_Signed",
+    "version": 2,
+    "package_format": [
+        {
+            "sub_tag": "Debug_TR",
+            "mandatory_files": [
+                {
+                    "SINIT_binary_file": "v[0-9A-Fa-f]*.[0-9A-Fa-f]*.[0-9A-Fa-f]*\\OKS_SINIT_v[0-9A-Fa-f]*.[0-9A-Fa-f]*.[0-9A-Fa-f]*_[0-9]{8}_IBL_TR_debug_signed.bin$"
+                }
+            ]
+        },
+        {
+            "sub_tag": "Simics_TR",
+            "mandatory_files": [
+                {
+                    "SINIT_binary_file": "v[0-9A-Fa-f]*.[0-9A-Fa-f]*.[0-9A-Fa-f]*\\OKS_SINIT_v[0-9A-Fa-f]*.[0-9A-Fa-f]*.[0-9A-Fa-f]*_[0-9]{8}_IBL_TR_debug_signed_simics.bin$"
+                }
+            ]
+        }
+    ]
+}

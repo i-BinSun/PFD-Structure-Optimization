@@ -1,0 +1,50 @@
+{
+  "ingredient_name": "A0_main_Acode",
+  "package_format": [
+    {
+      "sub_tag": "clr_tprod",
+      "mandatory_files": {
+        "plaintext_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_\\w+?_Dyn_PV0_Unencrypted\\.bin"
+      }
+    },
+    {
+      "sub_tag": "tenc_tprod",
+      "mandatory_files": {
+        "simics_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_\\w+?_Simics_PV0_Simics\\.bin"
+      }
+    },
+    {
+      "sub_tag": "emu_tprod",
+      "mandatory_files": {
+        "emulation_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_\\w+?_Simics_PV0_Emulation\\.bin"
+      }
+    },
+    {
+      "sub_tag": "silicon_tprod",
+      "mandatory_files": {
+        "emulation_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_\\w+?_PreProd_PV0_Static\\.bin"
+      }
+    },
+    {
+      "sub_tag": "enc_dbug",
+      "optional_files": {
+        "silicon_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_\\w+?_PreProd_PV0_On-Die\\.bin"
+      },
+      "mandatory_files": {}
+    },
+    {
+      "sub_tag": "enc_sed",
+      "optional_files": {
+        "silicon_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_\\w+?_Prod_PV0_On-Die\\.bin"
+      },
+      "mandatory_files": {}
+    },
+    {
+      "sub_tag": "enc_prod",
+      "optional_files": {
+        "silicon_encrypted_binary": ".*ACODE_DMR_X_ALL_\\d{3}\\.\\d\\.\\d{1,3}_NA_\\w+?_Prod_PV1_On-Die\\.bin"
+      },
+      "mandatory_files": {}
+    }
+  ]
+}

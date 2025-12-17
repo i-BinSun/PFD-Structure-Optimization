@@ -1,0 +1,13 @@
+{
+    "ingredient_name": "1GNicEFI",
+    "package_format": [
+        {
+            "sub_tag": "",
+            "mandatory_files": [
+                {
+                    "1GNicEFI(Jacksonville)_binary_file": ".*?.efi$"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+  "ingredient_name": "A0_1p0_main_pCode_CBB",
+  "version": 3,
+  "package_format": [
+    {
+      "sub_tag": "clr_tprod",
+      "mandatory_files": {
+        "plaintext_binary": ".*/system/image/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_.*_Unencrypted\\.bin"
+      }
+    },
+    {
+      "sub_tag": "tenc_tprod",
+      "mandatory_files": {
+        "encrypted_binary": ".*/system/image/PCODE_CBB_\\w\\w_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_.*_simics\\.bin"
+      }
+    }
+  ]
+}

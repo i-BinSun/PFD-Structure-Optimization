@@ -1,0 +1,11 @@
+{
+  "ingredient_name": "A0_PO_Tcode",
+  "package_format": [
+    {
+      "sub_tag": "",
+      "mandatory_files": {
+        "tcode_patchlet": ".*tcode\\.patchlet"
+      }
+    }
+  ]
+}

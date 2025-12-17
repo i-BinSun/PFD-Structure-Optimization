@@ -1,0 +1,13 @@
+{
+    "ingredient_name": "AspeedVideo_2600",
+    "package_format": [
+        {
+            "sub_tag": "",
+            "mandatory_files": [
+                {
+                    "AspeedVideo_2600 .efi Driver file": "v[0-9]*.[0-9]*.[0-9]*\\uefi_[0-9]{4}.efi"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+  "ingredient_name": "A0_ESE_RBP",
+  "package_format": [
+    {
+      "sub_tag": "clr_unsn",
+      "mandatory_files": {
+        "plaintext-binary": ".*\\.bin"
+      }
+    }
+  ]
+}

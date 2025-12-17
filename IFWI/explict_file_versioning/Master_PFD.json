@@ -1,0 +1,184 @@
+{
+    "ingredient_list": [
+        {
+            "ingredient_name": "QemuVideoDxe",
+            "file_path": "QemuVideoDxe/QemuVideoDxe_v1.json"
+        },
+        {
+            "ingredient_name": "PDR",
+            "file_path": "PDR/PDR_v1.json"
+        },
+        {
+            "ingredient_name": "FMOD_Scripts_Pre-1P0G",
+            "file_path": "FMOD_Scripts_Pre-1P0G/FMOD_Scripts_Pre-1P0G_v1.json"
+        },
+        {
+            "ingredient_name": "FMOD_Scripts_Post-1P0F",
+            "file_path": "FMOD_Scripts_Post-1P0F/FMOD_Scripts_Post-1P0F_v1.json"
+        },
+        {
+            "ingredient_name": "ACTM",
+            "file_path": "ACTM/ACTM_v1.json"
+        },
+        {
+            "ingredient_name": "ACTM_Signed",
+            "file_path": "ACTM_Signed/ACTM_Signed_v1.json"
+        },
+        {
+            "ingredient_name": "PowerOn_DMRAP_BIOSACM_Signed",
+            "file_path": "PowerOn_DMRAP_BIOSACM_Signed/PowerOn_DMRAP_BIOSACM_Signed_v1.json"
+        },
+        {
+            "ingredient_name": "PowerOn_DMRAP_SINIT_Signed",
+            "file_path": "PowerOn_DMRAP_SINIT_Signed/PowerOn_DMRAP_SINIT_Signed_v1.json"
+        },
+        {
+            "ingredient_name": "BIOSACM_1P0A",
+            "file_path": "BIOSACM_1P0A/BIOSACM_1P0A_v2.json"
+        },
+        {
+            "ingredient_name": "SINIT_1P0A",
+            "file_path": "SINIT_1P0A/SINIT_1P0A_v1.json"
+        },
+        {
+            "ingredient_name": "BIOSACM_1P0B",
+            "file_path": "BIOSACM_1P0B/BIOSACM_1P0B_v2.json"
+        },
+        {
+            "ingredient_name": "SINIT_1P0B",
+            "file_path": "SINIT_1P0B/SINIT_1P0B_v1.json"
+        },
+        {
+            "ingredient_name": "BIOSACM_Signed",
+            "file_path": "BIOSACM_Signed/BIOSACM_Signed_v2.json"
+        },
+        {
+            "ingredient_name": "SINIT_Signed",
+            "file_path": "SINIT_Signed/SINIT_Signed_v2.json"
+        },
+        {
+            "ingredient_name": "AspeedVideo_2600",
+            "file_path": "AspeedVideo_2600/AspeedVideo_2600_v1.json"
+        },
+        {
+            "ingredient_name": "VROC",
+            "file_path": "VROC/VROC_v1.json"
+        },
+        {
+            "ingredient_name": "Unified_Patch_DMR_A0",
+            "file_path": "Unified_Patch_DMR_A0/Unified_Patch_DMR_A0_v1.json"
+        },
+        {
+            "ingredient_name": "Unified_Patch_DMR_A0_0P5B",
+            "file_path": "Unified_Patch_DMR_A0_0P5B/Unified_Patch_DMR_A0_0P5B_v1.json"
+        },
+        {
+            "ingredient_name": "Unified_Patch_DMR_A0_0P8A",
+            "file_path": "Unified_Patch_DMR_A0_0P8A/Unified_Patch_DMR_A0_0P8A_v2.json"
+        },
+        {
+            "ingredient_name": "Unified_Patch_DMR_A0_0P8B",
+            "file_path": "Unified_Patch_DMR_A0_0P8B/Unified_Patch_DMR_A0_0P8B_v4.json"
+        },
+        {
+            "ingredient_name": "Unified_Patch_DMR_A0_1P0A",
+            "file_path": "Unified_Patch_DMR_A0_1P0A/Unified_Patch_DMR_A0_1P0A_v1.json"
+        },
+        {
+            "ingredient_name": "Unified_Patch_DMR_A0_1P0B",
+            "file_path": "Unified_Patch_DMR_A0_1P0B/Unified_Patch_DMR_A0_1P0B_v1.json"
+        },
+        {
+            "ingredient_name": "Unified_Patch_DMR_A0_1P0C",
+            "file_path": "Unified_Patch_DMR_A0_1P0C/Unified_Patch_DMR_A0_1P0C_v1.json"
+        },
+        {
+            "ingredient_name": "Unified_Patch_DMR_A0_1P0G",
+            "file_path": "Unified_Patch_DMR_A0_1P0G/Unified_Patch_DMR_A0_1P0G_v1.json"
+        },
+        {
+            "ingredient_name": "Unified_Patch_DMR_A0_1P0",
+            "file_path": "Unified_Patch_DMR_A0_1P0/Unified_Patch_DMR_A0_1P0_v1.json"
+        },
+        {
+            "ingredient_name": "IMH1_A0_DMRAP_Unified_Patch",
+            "file_path": "IMH1_A0_DMRAP_Unified_Patch/IMH1_A0_DMRAP_Unified_Patch_v1.json"
+        },
+        {
+            "ingredient_name": "Unified_Patch_DMR_IMH2_0P5",
+            "file_path": "Unified_Patch_DMR_IMH2_0P5/Unified_Patch_DMR_IMH2_0P5_v1.json"
+        },
+        {
+            "ingredient_name": "Unified_Patch_DMR_IMH2_0P8",
+            "file_path": "Unified_Patch_DMR_IMH2_0P8/Unified_Patch_DMR_IMH2_0P8_v1.json"
+        },
+        {
+            "ingredient_name": "IMH2_B0_DMRAP_Unified_Patch",
+            "file_path": "IMH2_B0_DMRAP_Unified_Patch/IMH2_B0_DMRAP_Unified_Patch_v1.json"
+        },
+        {
+            "ingredient_name": "IMH2_A0_DMRHD_Unified_Patch",
+            "file_path": "IMH2_A0_DMRHD_Unified_Patch/IMH2_A0_DMRHD_Unified_Patch_v1.json"
+        },
+        {
+            "ingredient_name": "PowerOn_DMRAP_MMC1",
+            "file_path": "PowerOn_DMRAP_MMC1/PowerOn_DMRAP_MMC1_v1.json"
+        },
+        {
+            "ingredient_name": "PowerOn_DMRAP_MMC2",
+            "file_path": "PowerOn_DMRAP_MMC2/PowerOn_DMRAP_MMC2_v1.json"
+        },
+        {
+            "ingredient_name": "MMC1",
+            "file_path": "MMC1/MMC1_v2.json"
+        },
+        {
+            "ingredient_name": "MMC2",
+            "file_path": "MMC2/MMC2_v2.json"
+        },
+        {
+            "ingredient_name": "PfrBin",
+            "file_path": "PfrBin/PfrBin_v1.json"
+        },
+        {
+            "ingredient_name": "FITm",
+            "file_path": "FITm/FITm_v1.json"
+        },
+        {
+            "ingredient_name": "FITm_Py",
+            "file_path": "FITm_Py/FITm_Py_v1.json"
+        },
+        {
+            "ingredient_name": "1GNicEFI",
+            "file_path": "1GNicEFI/1GNicEFI_v1.json"
+        },
+        {
+            "ingredient_name": "TdxSeam",
+            "file_path": "TdxSeam/TdxSeam_v1.json"
+        },
+        {
+            "ingredient_name": "TdxSeamldr",
+            "file_path": "TdxSeamldr/TdxSeamldr_v1.json"
+        },
+        {
+            "ingredient_name": "SeamLoader",
+            "file_path": "SeamLoader/SeamLoader_v1.json"
+        },
+        {
+            "ingredient_name": "SeamLoader_Signed",
+            "file_path": "SeamLoader_Signed/SeamLoader_Signed_v1.json"
+        },
+        {
+            "ingredient_name": "TdxSeamSig",
+            "file_path": "TdxSeamSig/TdxSeamSig_v1.json"
+        },
+        {
+            "ingredient_name": "PowerOn_DMRAP_BIOSID",
+            "file_path": null
+        },
+        {
+            "ingredient_name": "BIOSID",
+            "file_path": "BIOSID/BIOSID_v28.json"
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "ingredient_name": "PfrBin",
+    "package_format": [
+        {
+            "sub_tag": "",
+            "mandatory_files": [
+                {
+                    "me_binary_file": "PfrNone.bin"
+                }
+            ]
+        }
+    ]
+}

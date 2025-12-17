@@ -1,0 +1,18 @@
+{
+  "ingredient_name": "A0_UV2_main_OOBMSM",
+  "version": 1,
+  "package_format": [
+    {
+      "sub_tag": "clr_unsn",
+      "mandatory_files": {
+        "plaintext_binary": ".*patchlet\\.bin"
+      }
+    },
+    {
+      "sub_tag": "enc_unsn",
+      "mandatory_files": {
+        "encrypted_binary": ".*patchlet_Encrypted\\.bin"
+      }
+    }
+  ]
+}

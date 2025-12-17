@@ -1,0 +1,21 @@
+{
+    "ingredient_name": "PowerOn_DMRAP_MMC2",
+    "package_format": [
+        {
+            "sub_tag": "Prod_Singed_Encrypted",
+            "mandatory_files": [
+                {
+                    "MMC1_file": ".*\\binaries\\mmc_pkg_.*_sign-prod-debug_encrypt-prod.bin$"
+                }
+            ]
+        },
+        {
+            "sub_tag": "Un_Singed_Encrypted",
+            "mandatory_files": [
+                {
+                    "MMC1_file": ".*\\binaries\\mmc_pkg_.*_unsigned_unencrypted.bin$"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "ingredient_name": "Unified_Patch_DMR_A0_1P0B",
+    "package_format": [
+        {
+            "sub_tag": "",
+            "mandatory_files": [
+                {
+                    "Unified_Patch_binary_file": "UP_DMR_A0_[A-Fa-f0-9]{8}_.*SIGNED.inc"
+                }
+            ]
+        }
+    ]
+}

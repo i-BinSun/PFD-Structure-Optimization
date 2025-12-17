@@ -1,0 +1,11 @@
+{
+  "ingredient_name": "A0_main_XuCode",
+  "package_format": [
+    {
+      "sub_tag": "",
+      "mandatory_files": {
+        "xucode_binary": ".*xusection.bin"
+      }
+    }
+  ]
+}

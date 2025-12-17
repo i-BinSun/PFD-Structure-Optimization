@@ -1,0 +1,14 @@
+{
+    "ingredient_name": "FITm",
+    "version": 1,
+    "package_format": [
+        {
+            "sub_tag": "",
+            "mandatory_files": [
+                {
+                    "FITm_binary_file": "ModularFIT_gui_exe_[0-9]*.[0-9]*.[0-9]*\\FITm_cmd.exe"
+                }
+            ]
+        }
+    ]
+}

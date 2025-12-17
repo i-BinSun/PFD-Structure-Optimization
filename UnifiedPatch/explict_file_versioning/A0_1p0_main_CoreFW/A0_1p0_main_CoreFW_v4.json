@@ -1,0 +1,46 @@
+{
+  "ingredient_name": "A0_1p0_main_CoreFW",
+  "version": 4,
+  "package_format": [
+    {
+      "sub_tag": "clr_unsn",
+      "mandatory_files": {
+        "corefw_inc": ".*/8\\w{7}/patch_unipatch\\.inc",
+        "corefw_binary": ".*/8\\w{7}/patch_unipatch\\.bin",
+        "ucode_utils": ".*ucode_utils"
+      }
+    },
+    {
+      "sub_tag": "tenc_unsn",
+      "mandatory_files": {
+        "corefw_inc": ".*/D\\w{7}/patch_unipatch\\.inc",
+        "corefw_binary": ".*/D\\w{7}/patch_unipatch_encrypted\\.bin",
+        "ucode_utils": ".*ucode_utils"
+      }
+    },
+    {
+      "sub_tag": "tenc_tdbug",
+      "mandatory_files": {
+        "corefw_inc": ".*/D\\w{7}/patch_unipatch\\.inc",
+        "corefw_binary": ".*/D\\w{7}/patch_unipatch_signed\\.bin",
+        "ucode_utils": ".*ucode_utils"
+      }
+    },
+    {
+      "sub_tag": "enc_unsn",
+      "mandatory_files": {
+        "corefw_inc": ".*/8\\w{7}/patch_unipatch\\.inc",
+        "corefw_binary": ".*/8\\w{7}/patch_unipatch_encrypted\\.bin",
+        "ucode_utils": ".*ucode_utils"
+      }
+    },
+    {
+      "sub_tag": "enc_dbug",
+      "mandatory_files": {
+        "corefw_inc": ".*/8\\w{7}/patch_unipatch\\.inc",
+        "corefw_binary": ".*/8\\w{7}/patch_unipatch_signed\\.bin",
+        "ucode_utils": ".*ucode_utils"
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "ingredient_name": "A0_COM_main_iCode",
+  "version": 3,
+  "package_format": [
+    {
+      "sub_tag": "clr_unsn",
+      "mandatory_files": {
+        "plaintext_binary": ".*icode_\\w{8}_clr_unsn\\.bin"
+      }
+    },
+    {
+      "sub_tag": "tenc_unsn",
+      "mandatory_files": {
+        "encrypted_binary": ".*icode_\\w{8}_tenc_unsn\\.bin"
+      }
+    },
+    {
+      "sub_tag": "enc_dbug",
+      "mandatory_files": {
+        "encrypted_binary": ".*icode_\\w{8}_enc_dbug\\.bin"
+      }
+    },
+    {
+      "sub_tag": "enc_unsn",
+      "mandatory_files": {
+        "encrypted_binary": ".*icode_\\w{8}_enc_unsn\\.bin"
+      }
+    },
+    {
+      "sub_tag": "enc_sed",
+      "mandatory_files": {
+        "encrypted_binary": ".*icode_\\w{8}_enc_sed\\.bin"
+      }
+    },
+    {
+      "sub_tag": "enc_prod",
+      "mandatory_files": {},
+      "optional_files": {
+        "encrypted_binary": ".*icode_\\w{8}_enc_prod\\.bin"
+      }
+    }
+  ]
+}

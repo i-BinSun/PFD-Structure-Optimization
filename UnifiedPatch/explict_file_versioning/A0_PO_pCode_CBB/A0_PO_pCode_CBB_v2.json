@@ -1,0 +1,56 @@
+{
+  "ingredient_name": "A0_PO_pCode_CBB",
+  "version": 2,
+  "package_format": [
+    {
+      "sub_tag": "clr_tprod",
+      "mandatory_files": {
+        "plaintext_binary": ".*/Firmware/PCODE_CBB_\\w{2}_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_\\w+?_NA_Unencrypted\\.bin"
+      }
+    },
+    {
+      "sub_tag": "silicon_tprod",
+      "mandatory_files": {
+        "encrypted_binary": ".*/Firmware/PCODE_CBB_\\w{2}_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_\\w+?_NA_Static\\.bin"
+      }
+    },
+    {
+      "sub_tag": "tenc_tprod",
+      "mandatory_files": {
+        "encrypted_binary": ".*/system/image/PCODE_CBB_\\w{2}_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_\\w+?_NA_Static_simics\\.bin"
+      }
+    },
+    {
+      "sub_tag": "emu_tprod",
+      "mandatory_files": {
+        "encrypted_binary": ".*/system/image/PCODE_CBB_\\w{2}_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_\\w+?_NA_Static_fpga\\.bin"
+      }
+    },
+    {
+      "sub_tag": "enc_tprod",
+      "mandatory_files": {
+        "encrypted_binary": ".*/Firmware/PCODE_CBB_\\w{2}_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_\\w+?_NA_Static\\.bin"
+      }
+    },
+    {
+      "sub_tag": "enc_dbug",
+      "mandatory_files": {
+        "encrypted_binary": ".*/Firmware/DEBUG_ONLY_PCODE_CBB_\\w{2}_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_\\w+?_Debug_PV0_PerDie\\.bin"
+      }
+    },
+    {
+      "sub_tag": "enc_sed",
+      "mandatory_files": {},
+      "optional_files": {
+        "encrypted_binary": ".*/Firmware/PCODE_CBB_\\w{2}_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_\\w+?_Prod_PV0_PerDie\\.bin"
+      }
+    },
+    {
+      "sub_tag": "enc_prod",
+      "mandatory_files": {},
+      "optional_files": {
+        "encrypted_binary": ".*/Firmware/PCODE_CBB_\\w{2}_\\d{2}\\.\\d\\.\\d{1,5}\\.\\d_\\w+?_Prod_PV1_PerDie\\.bin"
+      }
+    }
+  ]
+}

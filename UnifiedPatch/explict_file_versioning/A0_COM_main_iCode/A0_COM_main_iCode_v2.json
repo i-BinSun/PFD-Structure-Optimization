@@ -1,0 +1,18 @@
+{
+  "ingredient_name": "A0_COM_main_iCode",
+  "version": 2,
+  "package_format": [
+    {
+      "sub_tag": "clr_unsn",
+      "mandatory_files": {
+        "plaintext_binary": ".*icode_\\w{8}_clr_unsn\\.bin"
+      }
+    },
+    {
+      "sub_tag": "tenc_unsn",
+      "mandatory_files": {
+        "encrypted_binary": ".*icode_\\w{8}_tenc_unsn\\.bin"
+      }
+    }
+  ]
+}

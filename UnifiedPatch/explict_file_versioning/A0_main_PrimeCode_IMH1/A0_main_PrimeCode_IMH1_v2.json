@@ -1,0 +1,44 @@
+{
+  "ingredient_name": "A0_main_PrimeCode_IMH1",
+  "version": 2,
+  "package_format": [
+    {
+      "sub_tag": "clr_unsn",
+      "mandatory_files": {
+        "plaintext_binary": ".*pcode-io_clr_unsn\\.bin"
+      }
+    },
+    {
+      "sub_tag": "tenc_unsn",
+      "mandatory_files": {
+        "encrypted_binary": ".*pcode-io_tenc_unsn\\.bin"
+      }
+    },
+    {
+      "sub_tag": "enc_unsn",
+      "mandatory_files": {
+        "encrypted_binary": ".*pcode-io_enc_unsn\\.bin"
+      }
+    },
+    {
+      "sub_tag": "enc_dbug",
+      "mandatory_files": {
+        "encrypted_binary": ".*pcode-io_enc_dbug\\.bin"
+      }
+    },
+    {
+      "sub_tag": "enc_sed",
+      "mandatory_files": {},
+      "optional_files": {
+        "encrypted_binary": ".*pcode-io_enc_sed\\.bin"
+      }
+    },
+    {
+      "sub_tag": "enc_prod",
+      "mandatory_files": {},
+      "optional_files": {
+        "encrypted_binary": ".*pcode-io_enc_prod\\.bin"
+      }
+    }
+  ]
+}

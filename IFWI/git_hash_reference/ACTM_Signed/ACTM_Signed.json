@@ -1,0 +1,13 @@
+{
+    "ingredient_name": "ACTM_Signed",
+    "package_format": [
+        {
+            "sub_tag": "",
+            "mandatory_files": [
+                {
+                    "ACTM_binary_file": ".*?.bin"
+                }
+            ]
+        }
+    ]
+}

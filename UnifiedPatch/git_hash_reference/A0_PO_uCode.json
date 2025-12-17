@@ -1,0 +1,27 @@
+{
+  "ingredient_name": "A0_PO_uCode",
+  "package_format": [
+    {
+      "sub_tag": "",
+      "mandatory_files": {
+        "ucode_utils": ".*ucode_utils$",
+        "ucode_patchlets": ".*/patchlets$",
+        "ice_code": ".*/icecode$",
+        "ucode_template": ".*/patch_template\\.template$",
+        "ucode_patch": ".*/patch_unipatch\\.patch$",
+        "model_src": ".*model_source\\.txt$"
+      }
+    },
+    {
+      "sub_tag": "silicon_tprod",
+      "mandatory_files": {
+        "ucode_utils": ".*ucode_utils$",
+        "ucode_patchlets": ".*/patchlets$",
+        "ice_code": ".*/icecode$",
+        "ucode_template": ".*/patch_template\\.template$",
+        "ucode_patch": ".*/patch_unipatch\\.patch$",
+        "model_src": ".*model_source\\.txt$"
+      }
+    }
+  ]
+}

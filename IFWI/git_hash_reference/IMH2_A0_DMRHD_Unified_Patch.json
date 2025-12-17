@@ -1,0 +1,13 @@
+{
+    "ingredient_name": "IMH2_A0_DMRHD_Unified_Patch",
+    "package_format": [
+        {
+            "sub_tag": "",
+            "mandatory_files": [
+                {
+                    "Unified_Patch_binary_file": ".*.inc"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+  "ingredient_name": "A0_UV3_main_pCode_CBB",
+  "version": 2,
+  "package_format": [
+    {
+      "sub_tag": "clr_dbug",
+      "mandatory_files": {
+        "plaintext_binary": ".*/system_sim/image/signed_pcode\\.bin"
+      }
+    },
+    {
+      "sub_tag": "enc_dbug",
+      "mandatory_files": {
+        "encrypted_binary": ".*/system_sim/image/signed_encrypted_pcode_simics\\.bin"
+      }
+    }
+  ]
+}

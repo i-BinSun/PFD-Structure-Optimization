@@ -1,0 +1,17 @@
+{
+  "ingredient_name": "A0_main_uCode",
+  "version": 1,
+  "package_format": [
+    {
+      "sub_tag": "",
+      "mandatory_files": {
+        "ucode_utils": ".*ucode_utils$",
+        "ucode_patchlets": ".*/patchlets$",
+        "ice_code": ".*/icecode$",
+        "ucode_template": ".*/patch_template\\.template$",
+        "ucode_patch": ".*/patch_unipatch\\.patch$",
+        "model_src": ".*model_source\\.txt$"
+      }
+    }
+  ]
+}

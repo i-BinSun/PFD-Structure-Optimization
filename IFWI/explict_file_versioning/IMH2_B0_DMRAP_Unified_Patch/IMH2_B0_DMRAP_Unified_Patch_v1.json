@@ -1,0 +1,14 @@
+{
+    "ingredient_name": "IMH2_B0_DMRAP_Unified_Patch",
+    "version": 1,
+    "package_format": [
+        {
+            "sub_tag": "",
+            "mandatory_files": [
+                {
+                    "Unified_Patch_binary_file": ".*.inc"
+                }
+            ]
+        }
+    ]
+}
