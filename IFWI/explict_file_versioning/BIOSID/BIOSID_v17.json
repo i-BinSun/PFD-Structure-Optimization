@@ -1,6 +1,5 @@
 {
     "ingredient_name": "BIOSID",
-    "version": 17,
     "package_format": [
         {
             "sub_tag": "Trunk_PRE1P0A_Debug",

@@ -1,6 +1,5 @@
 {
     "ingredient_name": "BIOSID",
-    "version": 21,
     "package_format": [
         {
             "sub_tag": "Trunk_Debug_CLANG_Linux",

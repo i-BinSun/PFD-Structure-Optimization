@@ -1,6 +1,5 @@
 {
     "ingredient_name": "BIOSID",
-    "version": 16,
     "package_format": [
         {
             "sub_tag": "Trunk_0P8B_Debug",

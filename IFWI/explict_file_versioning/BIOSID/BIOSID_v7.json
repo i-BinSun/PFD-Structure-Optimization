@@ -1,6 +1,5 @@
 {
     "ingredient_name": "BIOSID",
-    "version": 7,
     "package_format": [
         {
             "sub_tag": "Trunk_0P8A_Release",
